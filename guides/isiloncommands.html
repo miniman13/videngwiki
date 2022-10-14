@@ -1,0 +1,72 @@
+<!--
+title: Dell EMC Isilon
+description: Helpful CLI reference for Isilon administration
+published: true
+date: 2022-10-13T02:12:43.644Z
+tags: 
+editor: ckeditor
+dateCreated: 2022-10-13T02:02:38.800Z
+-->
+
+<h1>Dell EMC Isilon Command Reference</h1>
+<p>A short list of some helpful Isilon <code>isi</code> commands for use in storage administration.</p>
+<h2>Networking</h2>
+<p>&nbsp;</p>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <td>Source Based Routing enable/disable</td>
+        <td>
+          <p><code>isi network external view</code></p>
+          <p><code>isi network external modify —sbr=[true|false]</code></p>
+        </td>
+      </tr>
+      <tr>
+        <td>&nbsp;Stop SmartConnect from distributing IPs of a specific node (useful for maintenance) (As of 8.x, can be done in the UI from the specific pool)</td>
+        <td>&nbsp;<code> isi network modify pools sc-suspend-nodes &lt;groupnet_name&gt;.&lt;subnet_name&gt;.&lt;pool_name&gt; &lt;node #s&gt;</code></td>
+      </tr>
+      <tr>
+        <td>&nbsp;Start SmartConnect distributing IPs of a specific node after being suspended (As of 8.x, can be done in the UI)</td>
+        <td>&nbsp;<code>isi network modify pools sc-resume-nodes &lt;groupnet_name&gt;.&lt;subnet_name&gt;.&lt;pool_name&gt; &lt;node #s&gt;</code></td>
+      </tr>
+      <tr>
+        <td>&nbsp;Create static route</td>
+        <td>&nbsp;<code>isi networks modify pool --add-static-routes=192.168.71.0/24-192.168.70.1 --name=media-low:pool0</code></td>
+      </tr>
+      <tr>
+        <td>&nbsp;Remove static route</td>
+        <td><code>isi networks modify pool --remove-static-routes=&lt;network&gt;/&lt;CIDR bits&gt;-&lt;ip of gateway&gt; --name=&lt;subnetname&gt;:pool&lt;#&gt;</code></td>
+      </tr>
+      <tr>
+        <td>&nbsp;Display current network pools</td>
+        <td>&nbsp;<code>isi network pools list [-v | -groupname groupnet0 —subnet &lt;subnet name&gt;]</code></td>
+      </tr>
+      <tr>
+        <td>&nbsp;Display clients connected via SMB or FTP</td>
+        <td>&nbsp;<code>isi_for_array -n # 'netstat -an | grep ".445 \|.21 "'</code></td>
+      </tr>
+      <tr>
+        <td>&nbsp;Display current connections with smb protocols</td>
+        <td>&nbsp;<code>date; isi statistics client list --nodes=all --protocols=smb1,smb2 --sort=ops|head -n 30</code></td>
+      </tr>
+      <tr>
+        <td>&nbsp;Rebalance Dynamic Connections</td>
+        <td>&nbsp;<code>isi network --sc-rebalance-all</code></td>
+      </tr>
+      <tr>
+        <td>&nbsp; List connected clients</td>
+        <td>&nbsp;<code>isi statistics client list --output Node,Proto,Class,UserID,UserName,LocalAddr,RemoteAddr,RemoteName</code></td>
+      </tr>
+      <tr>
+        <td>List connected clients on a specific node</td>
+        <td>&nbsp;<code>isi statistics client list --nodes &lt;#&gt; --output Node,Proto,Class,UserID,UserName,LocalAddr,RemoteAddr,RemoteName</code></td>
+      </tr>
+      <tr>
+        <td>Find connected client based on IP</td>
+        <td><code>isi statistics client list --remote-addresses "&lt;ipaddress&gt;"</code></td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p>&nbsp;</p>
