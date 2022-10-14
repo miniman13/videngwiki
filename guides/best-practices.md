@@ -2,7 +2,7 @@
 title: Industry Best Practices
 description: 
 published: true
-date: 2022-10-14T22:57:12.841Z
+date: 2022-10-14T23:02:40.825Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T22:59:57.565Z
@@ -34,8 +34,6 @@ On the flip side, don’t get annoyed when someone doesn’t know as much as you
 Learning the way something is done now and sticking to that one way is dangerous, innovation is job security.
 
 At the end of the day; it's not about the gear, it's about the product.
-
-Word of mouth references that you know how to use gear XYZ is usually the gold standard.
 
 Don't be afraid to say you don't know something because it is painfully obvious when someone is faking it when it comes to the niche broadcast stuff.
 
