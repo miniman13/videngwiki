@@ -2,7 +2,7 @@
 title: Industry Best Practices
 description: 
 published: true
-date: 2022-10-14T22:56:56.971Z
+date: 2022-10-14T22:57:12.841Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T22:59:57.565Z
@@ -29,7 +29,6 @@ This business is about relationships and it's a smaller industry than you think.
 Never burn a bridge.
 
 Be confident in what you know, but also realize there are other people who know a lot too, so don’t get discouraged or annoyed when they actually do know more than you.
-
 On the flip side, don’t get annoyed when someone doesn’t know as much as you do, and don’t be condescending or rude when explaining something, even if in your mind it’s “basic”.
 
 Learning the way something is done now and sticking to that one way is dangerous, innovation is job security.
