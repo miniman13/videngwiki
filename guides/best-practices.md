@@ -2,13 +2,13 @@
 title: Best Practices
 description: 
 published: true
-date: 2022-10-14T07:31:43.273Z
+date: 2022-10-14T18:57:15.184Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T22:59:57.565Z
 ---
 
-# Best Practices
+# Industry Best Practices
 
 Document your work.
 
@@ -29,7 +29,6 @@ Use 75 Ohm cables & BNC barrels for SDI.
 When possible, genlock everything.
 
 If using Blackmagic Design equipment, budget enough to buy a second unit for when the first one burns up. 🔥
- 
 
 ## System Adminstration
 Always reboot servers and workstations between installs/uninstalls/upgrades/patches/firmware.
@@ -45,3 +44,7 @@ Try to keep your devices at fixed IP addressing. Either set the IP statically or
 Test your network cables. When possible certify them.
 
 Don't mix your production protocols on the same VLAN. Seperate core services onto their own VLANs (ie Dante, NDI, ARTNET should all exist on their own network VLAN)
+
+## Audio
+
+It's recommended that phantom power be turned off when using ribbon microphones.
