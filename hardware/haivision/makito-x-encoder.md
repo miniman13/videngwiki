@@ -2,7 +2,7 @@
 title: Makito X Encoder
 description: 
 published: true
-date: 2022-10-12T23:22:34.644Z
+date: 2022-10-14T21:28:11.387Z
 tags: encoder, rtmp, srt
 editor: markdown
 dateCreated: 2022-10-12T17:22:22.236Z
@@ -31,7 +31,13 @@ To reset the Haivision Makito use a paper-clip to hold down the reset button on 
 
 Once reset the Makito will reboot with a default IP address of `10.5.1.2` with a subnet mask of `255.255.0.0` and a gateway of `10.5.0.1`.
 
-## Undocumented API Endpoints
+## REST API
+The Makito X has an undocumented HTTP API.
+
+### Authentication
+A session cookie is passed in the header, for example `Cookie: SessionID=SESSID000000000`.
+
+### Undocumented API Endpoints
 
 | URL | Requires Auth | Description | Type |
 | --- | --- | --- | --- |
@@ -47,3 +53,6 @@ Once reset the Makito will reboot with a default IP address of `10.5.1.2` with a
 | /apis/authentication |  | Sends --data-binary with username and password to auth | POST |
 | /apis/streams/1/pause | YES | Pauses stream output | PUT |
 | /apis/streams/1/resume | YES | Resumes the stream output | PUT |
+
+> When creating the 
+{.is-info}
