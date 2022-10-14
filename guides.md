@@ -2,7 +2,7 @@
 title: Guides
 description: How do I do that?
 published: true
-date: 2022-10-14T22:58:35.485Z
+date: 2022-10-14T23:01:52.976Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T05:58:59.671Z
@@ -14,9 +14,8 @@ We often come across things that are confusing or hard to set up, these are some
 ## Dell EMC
 [Isilon Command Reference](/guides/isiloncommands)
 
-## Gear
-Here is the hidden gems list: [LINK](/guides/gems)
-
 ## Industry Best Practices
 [Industry Best Practices](/en/guides/best-practices)
 
+## Video Hidden Gems
+[Video Gems](/guides/gems)
