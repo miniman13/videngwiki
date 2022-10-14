@@ -2,7 +2,7 @@
 title: Industry Best Practices
 description: 
 published: true
-date: 2022-10-14T22:14:53.104Z
+date: 2022-10-14T22:56:56.971Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T22:59:57.565Z
@@ -21,6 +21,24 @@ Always double check you're recording. If possible have a backup record. (As an e
 Keep a copy of the previous software when upgrading. If possible archive every version– you never know when you need to roll back to support a device with incompatibiltes.
 
 Learn proper cable wrapping technique.
+
+## Industry
+
+This business is about relationships and it's a smaller industry than you think. Talk to people and make connections. Work hard in maintaining those relationships—those relationships are the way you get work.
+
+Never burn a bridge.
+
+Be confident in what you know, but also realize there are other people who know a lot too, so don’t get discouraged or annoyed when they actually do know more than you.
+
+On the flip side, don’t get annoyed when someone doesn’t know as much as you do, and don’t be condescending or rude when explaining something, even if in your mind it’s “basic”.
+
+Learning the way something is done now and sticking to that one way is dangerous, innovation is job security.
+
+At the end of the day; it's not about the gear, it's about the product.
+
+Word of mouth references that you know how to use gear XYZ is usually the gold standard.
+
+Don't be afraid to say you don't know something because it is painfully obvious when someone is faking it when it comes to the niche broadcast stuff.
 
 ## Video
  
@@ -46,5 +64,11 @@ Test your network cables. When possible certify them.
 Don't mix your production protocols on the same VLAN. Seperate core services onto their own VLANs (ie Dante, NDI, ARTNET should all exist on their own network VLAN)
 
 ## Audio
+Learn proper cable wrapping technique.
+
+Do appropreate gain staging and leave headroom.
+
+Invest in a good head amp.
 
 It's recommended that phantom power be turned off when using ribbon microphones.
+
