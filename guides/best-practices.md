@@ -2,7 +2,7 @@
 title: Industry Best Practices
 description: 
 published: true
-date: 2022-10-14T23:02:40.825Z
+date: 2022-10-14T23:03:27.925Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T22:59:57.565Z
@@ -36,6 +36,8 @@ Learning the way something is done now and sticking to that one way is dangerous
 At the end of the day; it's not about the gear, it's about the product.
 
 Don't be afraid to say you don't know something because it is painfully obvious when someone is faking it when it comes to the niche broadcast stuff.
+
+Reading the manuals puts you ahead of 70% of folks (sometimes this includes the folks who work for the company who made the product).
 
 ## Video
  
