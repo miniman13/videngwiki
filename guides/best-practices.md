@@ -2,7 +2,7 @@
 title: Industry Best Practices
 description: 
 published: true
-date: 2022-10-14T23:03:27.925Z
+date: 2022-10-14T23:13:01.332Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T22:59:57.565Z
@@ -21,6 +21,8 @@ Always double check you're recording. If possible have a backup record. (As an e
 Keep a copy of the previous software when upgrading. If possible archive every version– you never know when you need to roll back to support a device with incompatibiltes.
 
 Learn proper cable wrapping technique.
+
+Learn what hardward / software is standard in the industry where you work and try to get hands on experience.
 
 ## Industry
 
