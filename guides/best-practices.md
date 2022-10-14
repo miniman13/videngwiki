@@ -2,7 +2,7 @@
 title: Industry Best Practices
 description: 
 published: true
-date: 2022-10-14T22:14:24.585Z
+date: 2022-10-14T22:14:53.104Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T22:59:57.565Z
@@ -33,7 +33,7 @@ If using Blackmagic Design equipment, budget enough to buy a second unit for whe
 ## System Adminstration
 Always reboot servers and workstations between installs/uninstalls/upgrades/patches/firmware.
 
-Have a control of your updates / update cycles. The worst thing that could happening is a machine updating during a show or on-air.
+Have a control of your updates / update cycles. The worst thing that could happen is a machine updating during a show or while on-air.
 
 If possible avoid joining mission critical workstations to the domain (incase a DC doesn’t load/boot). If you can't avoid, make sure you have a local admin account.
 
