@@ -2,13 +2,13 @@
 title: Useful FFMPEG Commands
 description: because we will never remember all the options
 published: true
-date: 2022-10-15T20:47:32.556Z
+date: 2022-10-15T20:49:06.765Z
 tags: foss, open source, ffmpeg, software
 editor: markdown
 dateCreated: 2022-10-15T18:39:11.751Z
 ---
 
-Useful FFMPEG Commands
+# FFMPEG Commands
 
 ### Record HLS Stream from Beginning
 
