@@ -1,8 +1,8 @@
 ---
-title: Glossary
+title: Glossary List
 description: Disambiguation of various definition glossaries.
 published: true
-date: 2022-10-14T17:38:26.640Z
+date: 2022-10-15T20:53:44.203Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-14T17:29:43.527Z
