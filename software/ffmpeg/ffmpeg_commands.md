@@ -2,7 +2,7 @@
 title: Useful FFMPEG Commands
 description: because we will never remember all the options
 published: true
-date: 2022-10-15T20:45:02.860Z
+date: 2022-10-15T20:47:32.556Z
 tags: foss, open source, ffmpeg, software
 editor: markdown
 dateCreated: 2022-10-15T18:39:11.751Z
@@ -32,4 +32,20 @@ https://stackoverflow.com/questions/36074224/how-to-split-video-or-audio-by-sile
 `ffmpeg -i srt:remote.com:port?mode=listener -f lavfi -i anullsrc=sample_rate=48000:channel_layout=mono -filter_complex "join=inputs=3:channel_layout=octagonal:map=0.0-FL|0.1-FR|1.0-FC|1.1-BL|2.0-BR|2.0-BC|2.0-SL|2.0-SR[a]" -map 0:v -map "[a]" -f decklink -pix_fmt uyvy422 -s 1920x1080 -r 60000/1001 -ar 48000 "DeckLink Duo (2)"`
 https://discord.com/channels/494428283094564864/494428766525718528/939278974410952745
 
+### Stream Static File to Youtube
+> You may need to update the video parameters to meet newer Youtube recommendations for stream ingest
+{.is-info}
 
+`ffmpeg -i "input.mov" -deinterlace -vcodec libx264 
+-pix_fmt yuv420p -preset medium -r 30 -g 60 -b:v 2500k 
+-acodec libmp3lame -ar 44100 -threads 6 -qscale 3 -b:a 
+712000 -bufsize 512k -f flv "rtmp://a.rtmp.youtube.com/live2/key"`
+
+### Stream Local File to Facebook
+> You may need to update the video parameters to meet newer Facebook recommendations for stream ingest
+{.is-info}
+
+ffmpeg -i "input.mov" -deinterlace -vcodec libx264 
+-pix_fmt yuv420p -preset medium -r 30 -g 60 -b:v 2500k 
+-acodec aac -ar 44100 -threads 6 -qscale 3 -b:a 
+712000 -bufsize 512k -f flv "rtmp://rtmp-api.facebook.com:80/rtmp/key"
