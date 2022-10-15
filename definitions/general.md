@@ -2,7 +2,7 @@
 title: Definitions
 description: Some words can be confusing
 published: true
-date: 2022-10-15T05:18:05.690Z
+date: 2022-10-15T05:18:27.081Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T06:01:50.852Z
@@ -213,8 +213,9 @@ A small, usually handheld size, device that can process a signal of some sort. M
 - SDI -> HDMI
 - HDMI -> SDI
 - SDI Up/Down/Crossconversion
-
+ 
 ## Track
+*needs more details*
 
 ## TX
 See: [Transmission](#transmission)
