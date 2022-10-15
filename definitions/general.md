@@ -2,7 +2,7 @@
 title: Definitions
 description: Some words can be confusing
 published: true
-date: 2022-10-15T05:18:27.081Z
+date: 2022-10-15T20:48:44.833Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T06:01:50.852Z
@@ -100,6 +100,9 @@ Should be accompanied by a legend called a "Pinout" to indicate the function of 
 
 ## Hybrid Router
 A [router](#Router) that routes multiple levels of signals, such as Audio, Video, Ancillary, Time Code, etc.
+
+## Ingest
+*needs more details*
 
 ## Jackfield
 See: [Patchbay](#patchbay). A panel, often in a rack, where multiple physical signal paths are terminated. A jack may also be called a port or spigot, meaning a place where a plug is inserted. 
