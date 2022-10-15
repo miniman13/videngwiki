@@ -2,7 +2,7 @@
 title: Useful FFMPEG Commands
 description: because we will never remember all the options
 published: true
-date: 2022-10-15T20:49:06.765Z
+date: 2022-10-15T20:50:44.818Z
 tags: foss, open source, ffmpeg, software
 editor: markdown
 dateCreated: 2022-10-15T18:39:11.751Z
@@ -49,3 +49,6 @@ ffmpeg -i "input.mov" -deinterlace -vcodec libx264
 -pix_fmt yuv420p -preset medium -r 30 -g 60 -b:v 2500k 
 -acodec aac -ar 44100 -threads 6 -qscale 3 -b:a 
 712000 -bufsize 512k -f flv "rtmp://rtmp-api.facebook.com:80/rtmp/key"
+
+### Output file with all timestamps of blackframes
+`ffmpeg -i "file.mp4" -t 00:00:40 -filter_complex "[0]trim=start_frame=0:end_frame=1[c];[c][0]blend=all_mode=difference,blackframe=amount=98:threshold=32" -f null - 2>&1 | grep blackframe > output.txt`
