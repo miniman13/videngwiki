@@ -2,7 +2,7 @@
 title: Useful FFMPEG Commands
 description: Because we will never remember all the options
 published: true
-date: 2022-10-16T08:51:33.906Z
+date: 2022-10-16T08:51:59.862Z
 tags: foss, open source, ffmpeg, software
 editor: markdown
 dateCreated: 2022-10-15T18:39:11.751Z
@@ -12,7 +12,7 @@ dateCreated: 2022-10-15T18:39:11.751Z
 
 ### Record HLS Stream from Beginning
 
-`ffmpeg -live_start_index -99999 -i 'http://domain.com/hls/master.m3u8' -c copy localFile.mkv`
+`ffmpeg -live_start_index -99999 -i 'http://domain.com/hls/master.m3u8' -c copy output.mkv`
 
 ### Timeslip one Decklink to Another
 
