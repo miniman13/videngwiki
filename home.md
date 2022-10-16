@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2022-10-16T08:30:41.202Z
+date: 2022-10-16T08:30:49.931Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T05:46:44.419Z
@@ -12,4 +12,4 @@ dateCreated: 2022-10-12T05:46:44.419Z
  
 This wiki is ran by the [Video Engineering Discord](https://discord.gg/XdDkQv5SNM) and is intended to be a collector of information for broadcast, live event, and corporate production.
 
-Please check out the [contribution guidelines](/contribution) if you want to participate and write content.
+Please check out the [Contribution Guidelines](/contribution) if you want to participate and write content.
