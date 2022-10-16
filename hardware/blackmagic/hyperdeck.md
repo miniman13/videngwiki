@@ -2,13 +2,13 @@
 title: Hyperdeck
 description: 
 published: true
-date: 2022-10-16T02:27:42.046Z
+date: 2022-10-16T02:27:51.420Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-15T09:04:25.343Z
 ---
 
-# Tabset
+# Tabset {.tabset}
 
 ## Schematics
 
