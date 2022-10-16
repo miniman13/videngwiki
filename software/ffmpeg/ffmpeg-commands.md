@@ -2,7 +2,7 @@
 title: Useful FFMPEG Commands
 description: Because we will never remember all the options
 published: true
-date: 2022-10-16T08:51:59.862Z
+date: 2022-10-16T23:08:52.563Z
 tags: foss, open source, ffmpeg, software
 editor: markdown
 dateCreated: 2022-10-15T18:39:11.751Z
@@ -52,3 +52,10 @@ https://discord.com/channels/494428283094564864/494428766525718528/9392789744109
 
 ### Output file with all timestamps of blackframes
 `ffmpeg -i "file.mp4" -t 00:00:40 -filter_complex "[0]trim=start_frame=0:end_frame=1[c];[c][0]blend=all_mode=difference,blackframe=amount=98:threshold=32" -f null - 2>&1 | grep blackframe > output.txt`
+
+### Capture raw DV video over firewire and save to file (Mac only)
+
+`ffmpeg -f avfoundation -capture_raw_data true -i "DV-VCR" -c copy -map 0 -f rawvideo capture.dv`
+
+>To convert to Prores LT with proper color metadata: `ffmpeg -i capture.dv -c:v prores_ks -profile:v 1 -colorspace smpte170m -color_primaries smpte170m -color_trc 1 -c:a copy -movflags +write_colr capture_prores.mov`
+{.is-info}
