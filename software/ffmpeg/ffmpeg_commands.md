@@ -2,7 +2,7 @@
 title: Useful FFMPEG Commands
 description: Because we will never remember all the options
 published: true
-date: 2022-10-16T08:50:47.248Z
+date: 2022-10-16T08:51:33.906Z
 tags: foss, open source, ffmpeg, software
 editor: markdown
 dateCreated: 2022-10-15T18:39:11.751Z
