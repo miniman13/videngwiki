@@ -2,7 +2,7 @@
 title: Useful FFMPEG Commands
 description: Because we will never remember all the options
 published: true
-date: 2022-10-16T23:08:52.563Z
+date: 2022-10-17T00:05:59.684Z
 tags: foss, open source, ffmpeg, software
 editor: markdown
 dateCreated: 2022-10-15T18:39:11.751Z
@@ -50,11 +50,14 @@ https://discord.com/channels/494428283094564864/494428766525718528/9392789744109
 -acodec aac -ar 44100 -threads 6 -qscale 3 -b:a 
 712000 -bufsize 512k -f flv "rtmp://rtmp-api.facebook.com:80/rtmp/key"`
 
-### Output file with all timestamps of blackframes
+### Output file with timestamp record of every blackframe
 `ffmpeg -i "file.mp4" -t 00:00:40 -filter_complex "[0]trim=start_frame=0:end_frame=1[c];[c][0]blend=all_mode=difference,blackframe=amount=98:threshold=32" -f null - 2>&1 | grep blackframe > output.txt`
 
-### Capture raw DV video over firewire and save to file (Mac only)
+### Create Visual Audio Spectrum from Input File
+`ffmpeg -i input.mkv -filter_complex "[0:a]showspectrum=s=854x480:mode=combined:slide=scroll:saturation=0.2:scale=log,format=yuv420p[v]" -map "[v]" -map 0:a -b:v 700k -b:a 360k output.mkv`
 
+
+### Capture raw DV video over firewire and save to file (Mac only)
 `ffmpeg -f avfoundation -capture_raw_data true -i "DV-VCR" -c copy -map 0 -f rawvideo capture.dv`
 
 >To convert to Prores LT with proper color metadata: `ffmpeg -i capture.dv -c:v prores_ks -profile:v 1 -colorspace smpte170m -color_primaries smpte170m -color_trc 1 -c:a copy -movflags +write_colr capture_prores.mov`
