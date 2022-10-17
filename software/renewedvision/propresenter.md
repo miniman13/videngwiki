@@ -2,7 +2,7 @@
 title: ProPresenter
 description: 
 published: true
-date: 2022-10-14T01:10:36.877Z
+date: 2022-10-17T00:22:06.101Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T17:13:40.180Z
@@ -10,7 +10,7 @@ dateCreated: 2022-10-12T17:13:40.180Z
 
 # ProPresenter
 
-ProPresenter is a cross-platform (Mac / Windows) lyric and media presentation package built specifically to make high-quality live productions easy — productions include worship gatherings, sporting events, conferences, or even broadcast television.
+ProPresenter is a cross-platform (Mac / Windows) lyric and media presentation application built specifically to make high-quality live productions easy — productions include worship gatherings, sporting events, conferences, or even broadcast television.
 
 For full information regarding ProPresenter, refer to the ProPresenter documentation.
 
