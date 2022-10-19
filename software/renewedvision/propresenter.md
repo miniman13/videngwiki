@@ -1,8 +1,8 @@
 ---
-title: ProPresenter
+title: ProPresenter 7
 description: 
 published: true
-date: 2022-10-19T02:58:14.722Z
+date: 2022-10-19T03:01:05.736Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T17:13:40.180Z
