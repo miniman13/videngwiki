@@ -2,7 +2,7 @@
 title: OBS Studio
 description: 
 published: true
-date: 2022-10-14T05:33:03.423Z
+date: 2022-10-19T04:26:11.694Z
 tags: encoder, rtmp, srt
 editor: markdown
 dateCreated: 2022-10-12T17:32:24.980Z
@@ -14,7 +14,7 @@ OBS is a free and open source software for Windows, macOS and Linux with video r
 ## Download
 https://obsproject.com
 
-[Software Release Archive](https://github.com/obsproject/obs-studio/releases)
+[Previous Software Releases](https://github.com/obsproject/obs-studio/releases)
 
 ## Discord
 https://obsproject.com/discord
