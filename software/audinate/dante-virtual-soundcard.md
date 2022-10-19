@@ -2,7 +2,7 @@
 title: Dante Virtual Soundcard
 description: 
 published: true
-date: 2022-10-14T06:07:00.739Z
+date: 2022-10-19T02:52:53.831Z
 tags: dante, audinate
 editor: markdown
 dateCreated: 2022-10-12T17:02:54.580Z
@@ -11,6 +11,12 @@ dateCreated: 2022-10-12T17:02:54.580Z
 # Dante Virtual Soundcard
 
 Dante Virtual Soundcard is a simple, easy-to-use software application that turns a Windows or Mac computer into a Dante-enabled device, enabling you to instantly connect to any Dante network. Dante Virtual Soundcard uses your computer’s Ethernet port to communicate with other Dante-enabled devices on the network.
+
+## Product Page
+https://www.audinate.com/products/software/dante-virtual-soundcard
+
+## Download
+https://my.audinate.com/support/downloads/dante-virtual-soundcard
 
 ## Activation
 > Each Dante Virtual Soundcard license can be activated four times before you receive an error (“The license has been activated too many times”) preventing further activiations.
