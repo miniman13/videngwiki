@@ -2,7 +2,7 @@
 title: Dante Controller
 description: 
 published: true
-date: 2022-10-12T22:46:26.288Z
+date: 2022-10-19T02:47:20.422Z
 tags: dante, audinate
 editor: markdown
 dateCreated: 2022-10-12T17:10:24.849Z
@@ -10,6 +10,17 @@ dateCreated: 2022-10-12T17:10:24.849Z
 
 # Dante Controller
 Dante Controller provides essential device status information such as device-level latency and clock stability stats, multicast bandwidth usage, and customized event logging, for devices on a Dante network.
+
+## Product Page
+https://www.audinate.com/products/software/dante-controller
+
+## Download
+Dante Controller is now download-gated behind an account sign in page.
+
+You can download Dante Controller at https://my.audinate.com/support/downloads/dante-controller using this generic login:
+
+Email: `audinate@gustr.com`
+Password: `audinate`
 
 # Under The Hood
 What we know as Dante Controller is several executables (and several .jar files) bundled into a single application. The UI and Client is written in Java, with a native executable to communicate on the network level. The main logic of Dante Controller seems to be contained in `libDanteController.dylib`, located in the `Contents/MacOS` folder.
