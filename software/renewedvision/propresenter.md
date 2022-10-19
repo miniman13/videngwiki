@@ -2,7 +2,7 @@
 title: ProPresenter
 description: 
 published: true
-date: 2022-10-17T00:22:06.101Z
+date: 2022-10-19T02:58:14.722Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T17:13:40.180Z
@@ -15,6 +15,10 @@ ProPresenter is a cross-platform (Mac / Windows) lyric and media presentation ap
 For full information regarding ProPresenter, refer to the ProPresenter documentation.
 
 [Documentation >](https://www.google.com/?q=propresenter+documentation+filetype%3apdf)
+
+## Download
+https://renewedvision.com/propresenter/#download
+(Click **Download Only** at the bottm left of the form to skip to the direct downloads)
 
 ## File Format
 Presentations created in ProPresenter are saved with a `.pro` file extension. Prior to ProPresenter 7 files included the version number in the extension, for example `.pro6`, `.pro5` letting you know which version the presentation was created in.
