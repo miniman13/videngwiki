@@ -2,7 +2,7 @@
 title: Dante Controller
 description: 
 published: true
-date: 2022-10-19T02:47:20.422Z
+date: 2022-10-19T02:48:47.836Z
 tags: dante, audinate
 editor: markdown
 dateCreated: 2022-10-12T17:10:24.849Z
@@ -15,9 +15,10 @@ Dante Controller provides essential device status information such as device-lev
 https://www.audinate.com/products/software/dante-controller
 
 ## Download
-Dante Controller is now download-gated behind an account sign in page.
+https://my.audinate.com/support/downloads/dante-controller
 
-You can download Dante Controller at https://my.audinate.com/support/downloads/dante-controller using this generic login:
+Dante Controller is now download-gated behind an account sign in page.
+The downloads of Dante Controller are walled-off behind a user sign in area. You can use this generic login if you'd like to avoid creating an account: 
 
 Email: `audinate@gustr.com`
 Password: `audinate`
