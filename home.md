@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2022-10-16T08:30:49.931Z
+date: 2022-10-23T19:19:59.139Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T05:46:44.419Z
@@ -13,3 +13,5 @@ dateCreated: 2022-10-12T05:46:44.419Z
 This wiki is ran by the [Video Engineering Discord](https://discord.gg/XdDkQv5SNM) and is intended to be a collector of information for broadcast, live event, and corporate production.
 
 Please check out the [Contribution Guidelines](/contribution) if you want to participate and write content.
+
+This wiki is mirrored to Github at https://github.com/miniman13/videngwiki/. You can also [view recently changed files](https://github.com/miniman13/videngwiki/commits/main).
