@@ -2,7 +2,7 @@
 title: Audinate Dante
 description: 
 published: true
-date: 2022-10-14T05:36:27.188Z
+date: 2022-10-23T13:58:02.331Z
 tags: dante, audinate, audio-over-ip, video-over-ip
 editor: markdown
 dateCreated: 2022-10-12T22:25:53.263Z
@@ -23,6 +23,10 @@ For low channel count (<32) applications, a 100Mbps switch may be used as long a
 For higher channel counts, Gigabit switches are essential. QoS is recommended for Gigabit switches on networks that share data with services other than Dante.
 
 # Network Configuration
+
+## IGMP Snooping
+### IGMP v2 / v3 on macOS
+IGMP is specified in two commonly used versions: v2 and v3. This difference is most easily seen on current macOS computers that use IGMP v3 on built-in Ethernet ports; these may fail when connected to IGMP v2 switches. An easy workaround is to use an Ethernet adapter, all of which use IGMP v2.
 
 ## Link-Local
 > For Link-Local networks, Dante expects primary interfaces to use the 169.254.x.x range, and secondary interfaces to use the 172.31.x.x range.
