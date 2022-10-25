@@ -2,7 +2,7 @@
 title: Makito X Encoder
 description: 
 published: true
-date: 2022-10-14T21:28:11.387Z
+date: 2022-10-25T01:34:32.874Z
 tags: encoder, rtmp, srt
 editor: markdown
 dateCreated: 2022-10-12T17:22:22.236Z
@@ -54,5 +54,3 @@ A session cookie is passed in the header, for example `Cookie: SessionID=SESSID0
 | /apis/streams/1/pause | YES | Pauses stream output | PUT |
 | /apis/streams/1/resume | YES | Resumes the stream output | PUT |
 
-> When creating the 
-{.is-info}
