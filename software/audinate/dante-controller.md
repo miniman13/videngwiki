@@ -2,7 +2,7 @@
 title: Dante Controller
 description: 
 published: true
-date: 2022-10-19T02:48:47.836Z
+date: 2022-10-27T04:41:18.589Z
 tags: dante, audinate
 editor: markdown
 dateCreated: 2022-10-12T17:10:24.849Z
@@ -17,7 +17,6 @@ https://www.audinate.com/products/software/dante-controller
 ## Download
 https://my.audinate.com/support/downloads/dante-controller
 
-Dante Controller is now download-gated behind an account sign in page.
 The downloads of Dante Controller are walled-off behind a user sign in area. You can use this generic login if you'd like to avoid creating an account: 
 
 Email: `audinate@gustr.com`
