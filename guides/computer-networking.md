@@ -1,8 +1,8 @@
 ---
 title: Computer Networking
 description: A basic tl;dr introduction to computer networks
-published: false
-date: 2022-10-24T21:06:19.872Z
+published: true
+date: 2022-10-27T05:54:45.621Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-24T21:06:19.872Z
