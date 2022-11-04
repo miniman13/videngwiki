@@ -2,7 +2,7 @@
 title: Definitions
 description: Some words can be confusing
 published: true
-date: 2022-10-15T20:48:44.833Z
+date: 2022-11-04T02:09:42.066Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T06:01:50.852Z
@@ -162,6 +162,9 @@ May refer broadly to the primary content intended to be viewed by the audience, 
 
 ## Rattler
 Originally a model of Telecast SDI over fiber optic conversion system, has become slang for any SDI over fiber conversion system.
+
+## RFQ
+**R**equest **F**or **Q**uote: a document that details pricing options for services or product(s). In Production, an RFQ is often used during the procurement process.
 
 ## Router
 A (typically) hardware device with either hardware or software control which takes multiple inputs/sources and routes them to multiple outputs/destinations. May route multiple levels (signal types). The act of routing a source to a destination is called "taking" a route. Some routers may take multiple routes at once by means of a macro or [Salvo](#Salvo).
