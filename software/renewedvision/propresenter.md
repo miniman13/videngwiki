@@ -2,7 +2,7 @@
 title: ProPresenter
 description: 
 published: true
-date: 2022-10-19T03:01:56.973Z
+date: 2022-11-04T07:20:25.972Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T17:13:40.180Z
@@ -18,7 +18,7 @@ For full information regarding ProPresenter, refer to the ProPresenter documenta
 
 ## Download
 https://renewedvision.com/propresenter/#download
-(Click **Download Only** at the bottm left of the form to skip to the direct downloads)
+(Click **Download Only** at the bottom left of the form to skip to the direct downloads)
 
 ## File Format
 Presentations created in ProPresenter are saved with a `.pro` file extension. Prior to ProPresenter 7 files included the version number in the extension, for example `.pro6`, `.pro5` letting you know which version the presentation was created in.
