@@ -2,7 +2,7 @@
 title: Definitions
 description: Some words can be confusing
 published: true
-date: 2022-11-04T02:09:42.066Z
+date: 2022-11-09T18:18:09.078Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T06:01:50.852Z
@@ -31,8 +31,7 @@ Asynchronous Serial Interface. Method of carrying MPEG transport streams over co
 See [graphics](/en/definitions/graphics) definitions
 Aston Broadcast Systems is a developer of PC-based graphics generation software. The word "aston" is often used generically to refer to the text/graphics themselves, especially in UK broadcasting. See also [CG](#CG), [Chyron](#Chyron), [Lower Thirds](#Lower_Thirds).
 
-## DCDA
-Down Converting [Distribution Amplifier](#Distribution_Amplifier)
+
 
 ## Birdbeater
 Placeholder content sent to transmission in order to positively prevent [Program](#Program) content from accidentally being sent to [transmission](#Transmission). May refer to the actual content itself or to an automated process which interrupts program content. "Bird" refers to a satellite. Example: ESPN may require transmission of a birdbeater when program is not on air in order to prevent hot mics from going to air. 
@@ -72,6 +71,9 @@ A Distribution Amplifier accepts a single input signal and provides the same sig
 ## Dante
 
 Dante is a combination of software, hardware, and network protocols that delivers uncompressed, multi-channel, low-latency digital audio and video over a standard Ethernet network. Dante is an acronym for **D**igital **A**udio **N**etwork **T**hrough **E**thernet. Most of the time when people refer to Dante, they're referring to the audio related equipment or protocol.
+
+## DCDA
+Down Converting [Distribution Amplifier](#Distribution_Amplifier)
 
 ## Deck
 *needs more details*
