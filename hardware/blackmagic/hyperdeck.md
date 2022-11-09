@@ -2,15 +2,15 @@
 title: Hyperdeck
 description: 
 published: true
-date: 2022-11-09T10:49:05.728Z
+date: 2022-11-09T10:50:03.304Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-15T09:04:25.343Z
 ---
 
-# Tabset
+## Tabset {.tabset}
 
-## Schematics
+### Schematics
 
 ![](/hardware/blackmagic/2022hyperdeckextreme4khdrdiagram.png)
 
@@ -64,7 +64,7 @@ dateCreated: 2022-10-15T09:04:25.343Z
 
 Shuttle/Shuttle 2
 
-## Comparison Table
+### Comparison Table
 
 | **Model Name** | **Media** | **Video Input** | **Video Output** | **Audio Connectors** | **Record Formats** | Codecs | Reference In / Timecode | **Release Year** | Introductory Price | Current Price/Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
