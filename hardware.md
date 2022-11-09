@@ -2,7 +2,7 @@
 title: Hardware
 description: All the equipment out there.
 published: true
-date: 2022-10-13T21:16:09.316Z
+date: 2022-11-09T11:11:07.007Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T05:56:34.170Z
@@ -17,6 +17,7 @@ We all know there's a lot of hardware out there and it's confusing to keep track
 
 [VideoHub Routers](/en/hardware/blackmagic/videohub)
 [DeckLink IO Cards](/en/hardware/blackmagic/decklink)
+[HyperDeck Recorders](/en/hardware/blackmagic/hyperdeck)
 
 ## Haivision
 
