@@ -2,7 +2,7 @@
 title: Interfacing QL/CL, TF, Rio, and Tio
 description: Interfacing Yamaha Devices
 published: true
-date: 2022-11-09T18:01:51.621Z
+date: 2022-11-09T18:04:42.302Z
 tags: dante, yamaha, tf, tio, rio, ql, cl, interfacing, headamp
 editor: ckeditor
 dateCreated: 2022-11-09T17:48:46.896Z
@@ -108,7 +108,10 @@ dateCreated: 2022-11-09T17:48:46.896Z
   </table>
 </figure>
 <p>Note that firmwares must be of a matched revision according to the Yamaha RIVAGE PM/CL/QL/R/Tio Series Firmware/Editor/R Remote/Console File Converter Compatibility document <a href="https://download.yamaha.com/files/tcm:39-1161321?_ga=2.147724343.10903834.1668013668-2124979198.1668013668">(PDF)</a>. &nbsp;Newer versions tend to work across device series at release time but that is not always true and hasn't historically been true. &nbsp;Best to check versions for cross-compatibility (stay to one line on the chart). &nbsp;</p>
-<p>CL and QL network is physically configured as such. &nbsp;Note that the Device Control port for HA remote for a Tio must be set on the Dante network and is separate from the Dante port.</p>
+<p>Devices under control must be ‘mounted’ in the controlling system. &nbsp;Leave the Y###- prefix on any device names to enable mounting. &nbsp;</p>
+<p><strong>Best practice: </strong>Set all devices to different IDs. &nbsp;Reserve low numbers for Tio/TF as they are more restricted in numbering options. &nbsp;</p>
+<p>&nbsp;</p>
+<p>CL and QL network is physically configured as follows. &nbsp;Note that the Device Control port for HA remote for a Tio must be set on the Dante network and is separate from the Dante port.</p>
 <figure class="image"><img src="/hardware-yamaha-integrating_cl_networking.png"></figure>
 <figure class="image"><img src="/hardware-yamaha-integrating_cl_network_config.png">
   <figcaption>How to set CL/QL IP addresses</figcaption>
@@ -116,6 +119,9 @@ dateCreated: 2022-11-09T17:48:46.896Z
 <p>&nbsp;</p>
 <p>R-series (Rio, RMio, RSio, Rio-D2) port configuration:</p>
 <figure class="image"><img src="/hardware-yamaha-integrating_r-series_networking.png"></figure>
+<p>TF port configuration:</p>
+<p>&nbsp;</p>
+<p>Tio port configuration:</p>
 <p>&nbsp;</p>
 <p>References:</p>
 <ul>
