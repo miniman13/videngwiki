@@ -2,7 +2,7 @@
 title: Hardware
 description: All the equipment out there.
 published: true
-date: 2022-11-10T23:40:29.020Z
+date: 2022-11-10T23:42:42.877Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T05:56:34.170Z
@@ -28,9 +28,6 @@ We all know there's a lot of hardware out there and it's confusing to keep track
 [Carbonite Black](/en/hardware/rossvideo/carboniteblack)
 [TouchDrive Control Surfaces](/en/hardware/rossvideo/touchdrive)
 
-
-## Sony
-[Camera Control Units](/en/hardware/sony/cameracontrolunits)
 
 ## Barco
 
