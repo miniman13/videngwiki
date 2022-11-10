@@ -2,7 +2,7 @@
 title: Guides
 description: How do I do that?
 published: true
-date: 2022-10-14T23:01:52.976Z
+date: 2022-11-10T23:45:17.368Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T05:58:59.671Z
@@ -16,6 +16,10 @@ We often come across things that are confusing or hard to set up, these are some
 
 ## Industry Best Practices
 [Industry Best Practices](/en/guides/best-practices)
+
+## Sony CCU Connections
+[Intercom](/en/guides/sony-ccu-intercom)
+[Tally](/en/guides/sony-ccu-tally)
 
 ## Video Hidden Gems
 [Video Gems](/guides/gems)
