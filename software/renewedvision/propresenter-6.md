@@ -2,14 +2,16 @@
 title: ProPresenter 6
 description: Legacy ProPresenter Information
 published: true
-date: 2022-10-19T03:05:50.504Z
+date: 2022-11-11T04:38:48.474Z
 tags: propresenter, lyrics, renewedvision
 editor: markdown
 dateCreated: 2022-10-19T03:00:40.799Z
 ---
 
-# ProPresenter 6 (Legacy)
+# ProPresenter 6
 
+> ProPresenter has announced effective January 31, 2023, ProPresenter 6 will be no longer supported or updated and the ProPresenter 7 upgrade discount will no longer be available. See [ProPresenter 6 End of Life FAQs](https://support.renewedvision.com/hc/en-us/articles/10589582923027-ProPresenter6-End-of-Life-Frequently-Asked-Questions) for more information.
+{.is-warning}
 
 
 
