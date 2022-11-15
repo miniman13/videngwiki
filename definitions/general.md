@@ -2,7 +2,7 @@
 title: Definitions
 description: Some words can be confusing
 published: true
-date: 2022-11-15T01:52:36.969Z
+date: 2022-11-15T01:53:10.022Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T06:01:50.852Z
@@ -140,6 +140,9 @@ A composite display showing many small boxes with video signals displayed inside
 **O**pen **B**roadcaster **S**oftware is a digital encoder and general purpose livestreaming application. For more information see [OBS Studio](/en/software/obsproject/obs).
 
 ## Open Gear(R)
+*needs more details*
+
+## NMOS
 *needs more details*
 
 ## Partyline
