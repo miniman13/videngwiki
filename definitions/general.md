@@ -2,7 +2,7 @@
 title: Definitions
 description: Some words can be confusing
 published: true
-date: 2022-11-09T18:18:09.078Z
+date: 2022-11-15T01:52:36.969Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T06:01:50.852Z
@@ -164,6 +164,9 @@ May refer broadly to the primary content intended to be viewed by the audience, 
 
 ## Rattler
 Originally a model of Telecast SDI over fiber optic conversion system, has become slang for any SDI over fiber conversion system.
+
+## RCP
+*needs more details*
 
 ## RFQ
 **R**equest **F**or **Q**uote: a document that details pricing options for services or product(s). In Production, an RFQ is often used during the procurement process.
