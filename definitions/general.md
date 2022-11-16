@@ -2,7 +2,7 @@
 title: Definitions
 description: Some words can be confusing
 published: true
-date: 2022-11-16T06:37:13.552Z
+date: 2022-11-16T06:44:20.983Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T06:01:50.852Z
@@ -76,7 +76,7 @@ Dante is a combination of software, hardware, and network protocols that deliver
 Down Converting [Distribution Amplifier](#Distribution_Amplifier)
 
 ## Deck
-*needs more details*
+TBD
 
 ## De-embedder
 Most frequently refers to a device which takes an input with multiple types of data and extracts one or more types for isolated output. Should also have a "loop output" which passes the input signal unaltered. For example, an SDI to Analog Audio De-embedder should have an SDI video input, an SDI video output, and between 1 and 16 analog audio outputs. 
@@ -91,7 +91,7 @@ Digital Video Effects (sometimes Digital Video Engine). Most often refers to res
 Most frequently refers to a device which takes two or more 
 
 ## Frame Sync
-*needs more details*
+TBD
 
 ## Genlock
 The state of equipment being locked to a frame. *Reference signal* (the signal that equipment locks to for timing) is often wrongly referred to as "genlock". See the Reference definition and Genlock & Timing info page for more details. TBD.
@@ -104,7 +104,7 @@ Should be accompanied by a legend called a "Pinout" to indicate the function of 
 A [router](#Router) that routes multiple levels of signals, such as Audio, Video, Ancillary, Time Code, etc.
 
 ## Ingest
-*needs more details*
+TBD
 
 ## Jackfield
 See: [Patchbay](#patchbay). A panel, often in a rack, where multiple physical signal paths are terminated. A jack may also be called a port or spigot, meaning a place where a plug is inserted. 
@@ -128,16 +128,13 @@ Mix/Effect. Refers to the scope of processing within a video switcher focused on
 An M/E comprises of a program bus, preview/preset bus, select bus, transition block, and typically, keyers. An AUX output is not typically considered an ME since it is frequently limited to hard cuts and does not "mix" video sources. 
 
 ## Melt
-*needs more details*
+TBD
 
 ## MIP
 Multi-Image Processor. Uncommon term for a multiviewer, may be manufacturer-specific. See [Multiviewer.](#multiviewer)
 
 ## Multiviewer
 A generated display "mosaic" showing many small boxes with video signals displayed inside them. Also known as MIP, VIP (Evertz term), and Multiview/MV. Each individual box may be called a [PiP](#PIP), which stands for "Picture-in-picture."
-
-## OBS
-**O**pen **B**roadcaster **S**oftware is a digital encoder and general purpose livestreaming application. For more information see [OBS Studio](/en/software/obsproject/obs).
 
 ## OpenGear
 A frame and card standard created by Ross. The frame provides networking, control, and power to slots that can accept Open Gear cards. OpenGear X (OGX) is the newer standard with more power than OpenGear 3.
@@ -189,7 +186,7 @@ A device that converts computer signals into broadcast standard signals. Origina
 Serial Digital Interface. Refers to a transport defined by SMPTE 259M, SMPTE 292M, and SMPTE 424M providing for transmission of digital video with embedded audio and ancillary data, most frequently over coaxial cable or fiber optic cable. 
 
 ## Slate
-*See graphics definitions.*
+See: [Graphics Definitions](/en/definitions/graphics#slate)
 
 ## Switcher
 *needs more details*
