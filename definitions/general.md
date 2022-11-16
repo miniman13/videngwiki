@@ -2,7 +2,7 @@
 title: Definitions
 description: Some words can be confusing
 published: true
-date: 2022-11-16T06:34:14.857Z
+date: 2022-11-16T06:37:13.552Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T06:01:50.852Z
@@ -228,11 +228,8 @@ Used to refer to any device that can record or playback video regardless of whet
 		(The names of the producers kids)
 </details>
 
- See also:
-- [VTR](#VTR)
-- [Deck](#Deck)
-- [Replay](#Replay)
- {.links-list}
+ See also: [VTR](#VTR),  [Deck](#deck), [Replay](#replay)
+
 
 ## TD (Technical Director)
 The person in a control room tasked with operating the video [switcher](#Switcher).
