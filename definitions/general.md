@@ -2,7 +2,7 @@
 title: Definitions
 description: Some words can be confusing
 published: true
-date: 2022-11-15T01:53:10.022Z
+date: 2022-11-16T06:34:14.857Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T06:01:50.852Z
@@ -21,8 +21,6 @@ When there's multiple things that mean the same, or one thing that means many di
 ## ADA
 Audio or [Distribution Amplifier](#DA). Uncommon: Analog Video Distribution Amplifier.
 
-## ATEM
-Blackmagic Design's series of hardware video switchers. Typically seen as an entry level and budget hardware switcher compared to other options. Offered in various sizes and capacities to fit many different needs. This is not an acronym for anything, but the name of the company acquired by Blackmagic Designs which previously manufactured this line of video switchers.
 
 ## ASI
 Asynchronous Serial Interface. Method of carrying MPEG transport streams over coax or fibre.
@@ -30,7 +28,6 @@ Asynchronous Serial Interface. Method of carrying MPEG transport streams over co
 ## Aston
 See [graphics](/en/definitions/graphics) definitions
 Aston Broadcast Systems is a developer of PC-based graphics generation software. The word "aston" is often used generically to refer to the text/graphics themselves, especially in UK broadcasting. See also [CG](#CG), [Chyron](#Chyron), [Lower Thirds](#Lower_Thirds).
-
 
 
 ## Birdbeater
@@ -65,6 +62,9 @@ See [graphics](/en/definitions/graphics) definitions
 
 Manufacturer of computer graphics generators. Name is often used as a generic reference to computer graphics. See also [Aston](#Aston), [CG](#CG), [Lower Thirds](#Lower_Thirds)
 
+## Converter
+Anything that processes and changes at least one of the following about a signal (but no limited to): formats, framerates, standards, color spaces, dynamic ranges, and resolutions. Typically hardware.
+
 ## DA
 A Distribution Amplifier accepts a single input signal and provides the same signal to multple isolated outputs.
 
@@ -94,7 +94,7 @@ Most frequently refers to a device which takes two or more
 *needs more details*
 
 ## Genlock
-*needs more details*
+The state of equipment being locked to a frame. *Reference signal* (the signal that equipment locks to for timing) is often wrongly referred to as "genlock". See the Reference definition and Genlock & Timing info page for more details. TBD.
 
 ## GPI/GPO/GPIO
 General Purpose Input, General Purpose Output, or General Purpose Input/Output. Often refers to bare wire connections or ports on a device allowing for serial communication or contact closure. Devices may have only GPI or GPO, but GPIO as a generic term may be used to refer to either/both. 
@@ -125,7 +125,7 @@ Technical hub which is the final point in the broadcast chain before an over-the
 ## ME
 Mix/Effect. Refers to the scope of processing within a video switcher focused on a singular program output and one or more preview/preset outputs, clean feeds, etc. Some manufacturers such as Ross Video have MiniME's which are not as powerful as full ME's. Most consumer-grade video switchers, such as the ATEM Mini or Roland V-4EX, have a single ME. Many software-defined video switchers have additional ME's either included or available for license. 
 
-An AUX output is not typically considered an ME since it is frequently limited to hard cuts and does not "mix" video sources. 
+An M/E comprises of a program bus, preview/preset bus, select bus, transition block, and typically, keyers. An AUX output is not typically considered an ME since it is frequently limited to hard cuts and does not "mix" video sources. 
 
 ## Melt
 *needs more details*
@@ -134,13 +134,13 @@ An AUX output is not typically considered an ME since it is frequently limited t
 Multi-Image Processor. Uncommon term for a multiviewer, may be manufacturer-specific. See [Multiviewer.](#multiviewer)
 
 ## Multiviewer
-A composite display showing many small boxes with video signals displayed inside them. Also known as MIP, VIP (Evertz term), and MV. Each individual box may be called a [PiP](#PIP), which stands for "Picture-in-picture."
+A generated display "mosaic" showing many small boxes with video signals displayed inside them. Also known as MIP, VIP (Evertz term), and Multiview/MV. Each individual box may be called a [PiP](#PIP), which stands for "Picture-in-picture."
 
 ## OBS
 **O**pen **B**roadcaster **S**oftware is a digital encoder and general purpose livestreaming application. For more information see [OBS Studio](/en/software/obsproject/obs).
 
-## Open Gear(R)
-*needs more details*
+## OpenGear
+A frame and card standard created by Ross. The frame provides networking, control, and power to slots that can accept Open Gear cards. OpenGear X (OGX) is the newer standard with more power than OpenGear 3.
 
 ## NMOS
 *needs more details*
@@ -160,7 +160,7 @@ Un-normalled/Non-normalled patchbays have no internal connections and require th
 ![patchbay.png](/patchbay.png)
 
 ## PIP
-Picture-in-picture. May refer to either a single box within a [Multiviewer](#Multiviewer) or to the use of a [DVE](#DVE) to superimpose a small image on or next to a larger image. 
+Picture-in-picture. May refer to either a single box within a [Multiviewer](#Multiviewer) or more correctly, the use of a [DVE](#DVE) to superimpose a small source on top of a larger image. A "picture inside of a picture".
 
 ## Program
 May refer broadly to the primary content intended to be viewed by the audience, or more specifically to the main output of one or more ME's (Mix Engines) within a video switcher. 
@@ -174,50 +174,65 @@ Originally a model of Telecast SDI over fiber optic conversion system, has becom
 ## RFQ
 **R**equest **F**or **Q**uote: a document that details pricing options for services or product(s). In Production, an RFQ is often used during the procurement process.
 
+## ROI
+Region of Interest. Refers to a selected part of a raster. Typically as a term for checking pixel values in a given "region" or scaling to a "region of interest" in the case of an ROI converter.
+
 ## Router
 A (typically) hardware device with either hardware or software control which takes multiple inputs/sources and routes them to multiple outputs/destinations. May route multiple levels (signal types). The act of routing a source to a destination is called "taking" a route. Some routers may take multiple routes at once by means of a macro or [Salvo](#Salvo).
 
 The router may or may not be clean-switching, meaning the signal may or may not lose sync and drop when a new route is taken. Clean-switching routers typically add delay/latency in order to synchronize signals in a buffer. 
 
+## Scan Converter
+A device that converts computer signals into broadcast standard signals. Originally, this was for computer signals to analog TV signals, now it usually refer to any converter (including throwdown converters) that converts 60Hz to 59.94Hz and the like.
+
 ## SDI
 Serial Digital Interface. Refers to a transport defined by SMPTE 259M, SMPTE 292M, and SMPTE 424M providing for transmission of digital video with embedded audio and ancillary data, most frequently over coaxial cable or fiber optic cable. 
 
 ## Slate
-*needs more details*
+*See graphics definitions.*
 
 ## Switcher
 *needs more details*
 See also [VMU](#VMU), [Vision Mixer](#Vision_Mixer), [TD (Technical Director)](#TD_(Technical_Director))
 
 ## Tally
-*needs more details*
+Refers to the indicator (and respective signal) that tells the operator their input (typically a camera output) is "live" on the switcher. Red indicates the input is on program, and green indicates that the input is on preview.
+
+Tally *signals* are generated by the switcher usually with contact closures or in the case of ATEMs, digitally on the SDI PGM feed ancillary data. Tally *indicators* are usually dots displayed on a viewfinder and/or actual lights that illuminate the appropriate color.
 
 ## Tally Whack
 *needs more details*
 
 ## Tape Machine
-Used to refer to any device that can record or playback video regardless of whether it is recording to a linear or non-linear format. Tape Machines are not typically referred to by their engineering names, but are given names that are easier for the production staff to know what is on the machine or refer to it in their production. Some of these common names are:
- - Red
- - Blue
- - Gold
- - Silver
- - Black
- - Laser
- - Elvis
- - Cash
- - Money
- - A
- - A
- - B
- - C
- - D
- - X
- - Y
- - Z
- - Disk
- - The names of the producers kids
- 
- See also [VTR](#VTR), [Deck](#Deck), [Replay](#Replay)
+Used to refer to any device that can record or playback video regardless of whether it is recording to a linear or non-linear format. Tape Machines are not typically referred to by their engineering names, but are given names that are easier for the production staff to know what is on the machine or refer to it in their production. 
+
+<details>
+<summary>Expand to see some common names</summary>
+    Red  <br>
+    Blue  <br>
+    Gold <br>
+		Silver <br>
+		Black <br>
+		Laser <br>
+		Elvis <br>
+		Cash <br>
+		Money <br>
+		A <br>
+		B <br>
+		C <br>
+		D <br>
+		X <br>
+		Y <br>
+		Z <br>
+		Disk <br>
+		(The names of the producers kids)
+</details>
+
+ See also:
+- [VTR](#VTR)
+- [Deck](#Deck)
+- [Replay](#Replay)
+ {.links-list}
 
 ## TD (Technical Director)
 The person in a control room tasked with operating the video [switcher](#Switcher).
@@ -252,10 +267,6 @@ Up, Down, Cross converter. A converter that can scale the raster up, down, and a
 ## VDA
 Video [Distribution Amplifier](#DA)
 
-## vMix
-A versatile and useful software video switcher and compositer used frequently in virtual productions, and esports/corporate AV. 
-- In esports terms: "the better OBS"
-- In traditional sports broadcasting terms: "not a hardware switcher"
 
 ## VMU
 Vision Mixer Unit, common parlance for users not in the United States. See [Switcher](#Switcher), [Vision Mixer](#Vision_Mixer)
@@ -265,3 +276,4 @@ Common parlance for users not in the United States. Refers either to a video [sw
 
 ## VTR
 Refers to a stand-alone record/playback device such as a Hyperdeck, Shogun Studio, or even a Betacam Tape Deck.
+
