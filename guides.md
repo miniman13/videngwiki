@@ -2,7 +2,7 @@
 title: Guides
 description: How do I do that?
 published: true
-date: 2022-11-10T23:55:20.080Z
+date: 2022-11-21T08:49:45.405Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T05:58:59.671Z
@@ -22,3 +22,6 @@ We often come across things that are confusing or hard to set up, these are some
 
 ## Video Hidden Gems
 [Video Gems](/guides/gems)
+
+## Truck Packs
+[Truck Packs](/en/guides/Truck-Packs)
