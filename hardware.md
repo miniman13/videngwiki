@@ -2,7 +2,7 @@
 title: Hardware
 description: All the equipment out there.
 published: true
-date: 2022-11-28T11:11:01.841Z
+date: 2022-11-28T11:48:23.604Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T05:56:34.170Z
