@@ -2,7 +2,7 @@
 title: Hardware
 description: All the equipment out there.
 published: true
-date: 2022-11-10T23:42:42.877Z
+date: 2022-11-28T11:11:01.841Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T05:56:34.170Z
@@ -14,10 +14,10 @@ We all know there's a lot of hardware out there and it's confusing to keep track
 [AJA-Recorders](/en/hardware/AJA/AJA-Recorders)
 
 ## Blackmagic Design
-
-[VideoHub Routers](/en/hardware/blackmagic/videohub)
 [DeckLink IO Cards](/en/hardware/blackmagic/decklink)
 [HyperDeck Recorders](/en/hardware/blackmagic/hyperdeck)
+[Studio Converter CCUs](/en/hardware/blackmagic/studioconverter)
+[VideoHub Routers](/en/hardware/blackmagic/videohub)
 
 ## Haivision
 
