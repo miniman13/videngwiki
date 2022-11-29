@@ -2,7 +2,7 @@
 title: Studio Converter
 description: Blackmagic's Camera Control Units
 published: true
-date: 2022-11-29T08:57:59.980Z
+date: 2022-11-29T09:22:54.886Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-28T11:17:15.564Z
@@ -21,7 +21,7 @@ The 2021 Blackmagic Studio Converter ($955 starting price) is a 10G Ethernet (po
 
 The Blackmagic Studio Fiber Converter ($2,995 starting price) is a 12G SMPTE hybrid fiber CCU for the Blackmagic Camera Fiber Converter. The optical I/O is not implemented. 
 
-> The DB25 tally requires embeded ancillary data on the Return 1 SDI (via an ATEM) in order to override. A possible workaround is to loop the output from a BMD camera (which has ancillary data) into Return 1.
+> The DB25 tally requires embeded ancillary data on the Return 1 SDI (via an ATEM) in order to override. A possible workaround is to loop the output from a BMD camera (which has ancillary data) into Return 1 or use the BMD Arduino Shield.
 {.is-warning}
 
 ![](/hardware/blackmagic/studioconverter/2018blackmagicstudiofiberconverterdiagram.png)
