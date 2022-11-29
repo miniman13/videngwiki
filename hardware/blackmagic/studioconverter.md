@@ -2,11 +2,14 @@
 title: Studio Converter
 description: Blackmagic's Camera Control Units
 published: true
-date: 2022-11-29T08:19:49.248Z
+date: 2022-11-29T08:21:57.961Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-28T11:17:15.564Z
 ---
+
+>Unlike a traditional broadcast chain, Blackmagic uses the ATEM to embed controlling signals  (such as lens, brightness, and color controls) on the PGM feed.
+{.is-info}
 
 # 2021 Blackmagic Studio Converter
 
