@@ -2,7 +2,7 @@
 title: Makito X Encoder
 description: 
 published: true
-date: 2022-10-25T01:34:32.874Z
+date: 2022-11-30T06:17:36.704Z
 tags: encoder, rtmp, srt
 editor: markdown
 dateCreated: 2022-10-12T17:22:22.236Z
@@ -29,7 +29,10 @@ To reset the Haivision Makito use a paper-clip to hold down the reset button on 
 > When factory-reset, Haivision Makito X has a default username of `admin` and a default password of `manager`.
 {.is-info}
 
-Once reset the Makito will reboot with a default IP address of `10.5.1.2` with a subnet mask of `255.255.0.0` and a gateway of `10.5.0.1`.
+Once reset is complete Makito will reboot with the factory default settings:
+**IP Address**: `10.5.1.2`
+**Subnet Mask**: `255.255.0.0`
+**Gateway**: `10.5.0.1`
 
 ## REST API
 The Makito X has an undocumented HTTP API.
