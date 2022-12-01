@@ -2,7 +2,7 @@
 title: Dante Virtual Soundcard
 description: 
 published: true
-date: 2022-10-19T02:52:53.831Z
+date: 2022-12-01T08:10:36.100Z
 tags: dante, audinate
 editor: markdown
 dateCreated: 2022-10-12T17:02:54.580Z
@@ -31,4 +31,4 @@ macOS machines running Dante Virtual Soundcard will likely lose clock-sync and m
 
 ### 10Gb Ethernet on macOS
 Dante Virtual Soundcard (transmission) does not work on any 10Gb ethernet ports on macOS. You'll have to use a Thunderbolt to 1Gb Ethernet adaptor if you're using a machine that has a 10Gb ethernet port. http://duc.avid.com/showthread.php?t=410371
-The reason for this is the 10Gbps Ethernet port on macOS does not support PtP (Dante Clock) correctly, rendering it useless for Dante. This is an Apple hardware/driver issue which also impacts other protocols that need PtP clocking, and with nothing Audinate can do to fix it. (Apple may have fixed this is Big Sur – untested)
+The reason for this is the 10Gbps Ethernet port on macOS does not support PtP (Dante Clock) correctly, rendering it useless for Dante. This is an Apple hardware/driver issue which also impacts other protocols that need PtP clocking, and with nothing Audinate can do to fix it. (According to Audinate, Apple fixed this issue in macOS 12 Monterey)
