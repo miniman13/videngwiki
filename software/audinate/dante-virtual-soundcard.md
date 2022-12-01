@@ -2,7 +2,7 @@
 title: Dante Virtual Soundcard
 description: 
 published: true
-date: 2022-12-01T08:10:36.100Z
+date: 2022-12-01T08:10:45.642Z
 tags: dante, audinate
 editor: markdown
 dateCreated: 2022-10-12T17:02:54.580Z
@@ -19,7 +19,7 @@ https://www.audinate.com/products/software/dante-virtual-soundcard
 https://my.audinate.com/support/downloads/dante-virtual-soundcard
 
 ## Activation
-> Each Dante Virtual Soundcard license can be activated four times before you receive an error (“The license has been activated too many times”) preventing further activiations.
+> Each Dante Virtual Soundcard license can be activated four times before you receive the error (“The license has been activated too many times”) preventing further activiations.
 {.is-info}
 
 
