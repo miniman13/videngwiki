@@ -2,13 +2,18 @@
 title: Computer Networking
 description: A basic tl;dr introduction to computer networks
 published: true
-date: 2022-10-27T05:54:45.621Z
+date: 2022-12-18T15:11:34.081Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-24T21:06:19.872Z
 ---
 
 # Computer Networking
+
+# Resources
+Visual Subnet Calculator: https://www.davidc.net/sites/default/subnets/subnets.html
+
+# Overview
 ## Premise
 This guide is not designed to be all-encompassing nor a replacement for professional learning. This guide is purely to help describe overall concepts in TCP/IP networks and serve as a basis for further independent learning.
 
