@@ -2,7 +2,7 @@
 title: Industry Best Practices
 description: 
 published: true
-date: 2022-10-14T23:13:01.332Z
+date: 2022-12-31T06:43:06.682Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T22:59:57.565Z
@@ -23,6 +23,12 @@ Keep a copy of the previous software when upgrading. If possible archive every v
 Learn proper cable wrapping technique.
 
 Learn what hardward / software is standard in the industry where you work and try to get hands on experience.
+
+Follow proper safety procedures when working with electrical and electronic equipment. This includes wearing protective gear, following proper lifting techniques, and knowing how to properly handle and use tools and equipment.
+
+Know how to use your equipment's diagnostic and monitoring tools. This will help you troubleshoot problems and identify potential issues before they become major issues.
+
+
 
 ## Industry
 
