@@ -2,7 +2,7 @@
 title: Computer Networking
 description: A basic tl;dr introduction to computer networks
 published: true
-date: 2022-12-18T15:11:34.081Z
+date: 2022-12-31T07:04:40.348Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-24T21:06:19.872Z
@@ -79,4 +79,9 @@ As a final note, you can view subnets and VLANs as being nearly logically equivi
 
 ### Layer 4 - Transport
 
+
 ## Common Networking Protocols
+TCP
+UDP
+Websocket
+SRT
