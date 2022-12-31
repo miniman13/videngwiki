@@ -2,7 +2,7 @@
 title: ProPresenter 6
 description: Legacy ProPresenter Information
 published: true
-date: 2022-11-11T04:38:48.474Z
+date: 2022-12-31T05:17:56.188Z
 tags: propresenter, lyrics, renewedvision
 editor: markdown
 dateCreated: 2022-10-19T03:00:40.799Z
@@ -29,7 +29,7 @@ ProPresenter by default is set to manage media automatically. This means ProPres
 
 ## Configuration and Media Transfer
 
-Below are the files that need to be transferred to the new Machine to transfer over the old machine's ProPresenter configuration.
+Below are the files that need to be transferred to copy a machine's configuration over to another Mac.
 
 ProPresenter Library Documents
 
