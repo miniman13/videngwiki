@@ -2,7 +2,7 @@
 title: Sony CCU Connections  - Intercom
 description: How to connect 2-wire and 4-wire intercom to Sony CCU's
 published: true
-date: 2022-11-29T16:23:39.353Z
+date: 2023-01-02T07:27:00.899Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-10T23:55:02.546Z
@@ -28,5 +28,6 @@ dateCreated: 2022-11-10T23:55:02.546Z
 </td>
 </tr>
 </table>
-See photos above for pinouts for both the default 4-wire intercom connections as well as the optional 2-wire configuration. 
-See also: https://clear-com.atlassian.net/wiki/spaces/SF/pages/256573574/Sony+CCU+Solutions
+
+See photos above for pinouts for both the default 4-wire intercom connections as well as the optional 2-wire configuration.
+See also: [https://clear-com.atlassian.net/wiki/spaces/SF/pages/256573574/Sony+CCU+Solutions](https://clear-com.atlassian.net/wiki/spaces/SF/pages/256573574/Sony+CCU+Solutions)
