@@ -2,7 +2,7 @@
 title: Truck Packs
 description: Optimal Packing of Road Cases Into Trucks
 published: true
-date: 2022-11-21T10:10:31.511Z
+date: 2023-01-22T21:50:50.903Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-21T08:48:38.159Z
@@ -30,13 +30,9 @@ While both the same dimension, these trucks are commonly available in two differ
 ### Semi
 *often also referred to as just a "trailer"*
 
-![53foot.png](/53foot.png) *dimensions shown as interior*
+![53foot.png](/53foot.png)
+*dimensions shown as interior*
 
-<br>
-<br>
-<br>
-<br>
-<br>
 
 ## Standardizing Load Sizes
 All road cases should be measured from the absolute edges, including the outside of the balled corners, if present.
