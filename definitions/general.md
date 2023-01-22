@@ -2,7 +2,7 @@
 title: Definitions
 description: Some words can be confusing
 published: true
-date: 2023-01-22T21:45:43.960Z
+date: 2023-01-22T21:48:22.627Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T06:01:50.852Z
@@ -178,6 +178,9 @@ Region of Interest. Refers to a selected part of a raster. Typically as a term f
 A (typically) hardware device with either hardware or software control which takes multiple inputs/sources and routes them to multiple outputs/destinations. May route multiple levels (signal types). The act of routing a source to a destination is called "taking" a route. Some routers may take multiple routes at once by means of a macro or [Salvo](#Salvo).
 
 The router may or may not be clean-switching, meaning the signal may or may not lose sync and drop when a new route is taken. Clean-switching routers typically add delay/latency in order to synchronize signals in a buffer. 
+
+## Salvo
+A salvo is a feature found in some broadcast routers that allows the operator to preconfigure and quickly execute a set of crosspoint switching commands. A crosspoint is the point in a router matrix where a signal is routed from an input to an output. A salvo is a group of crosspoint switches that are activated simultaneously with a single command.
 
 ## Scan Converter
 A device that converts computer signals into broadcast standard signals. Originally, this was for computer signals to analog TV signals, now it usually refer to any converter (including throwdown converters) that converts 60Hz to 59.94Hz and the like.
