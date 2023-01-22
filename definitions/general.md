@@ -2,7 +2,7 @@
 title: Definitions
 description: Some words can be confusing
 published: true
-date: 2022-11-16T06:45:21.124Z
+date: 2023-01-22T21:45:43.960Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T06:01:50.852Z
@@ -91,7 +91,7 @@ Digital Video Effects (sometimes Digital Video Engine). Most often refers to res
 Most frequently refers to a device which takes two or more 
 
 ## Frame Sync
-TBD
+A frame sync, also known as a frame synchronizer, is a device or software used in a broadcast workflow to synchronize video signals. It aligns multiple video streams so that they are in the same phase and can be combined or switched seamlessly. This is important in situations where multiple cameras or sources are being used, as each may have slight differences in timing or phase that would cause issues when displayed or recorded. The frame sync compensates for these discrepancies to ensure a smooth and seamless output.
 
 ## Genlock
 The state of equipment being locked to a frame. *Reference signal* (the signal that equipment locks to for timing) is often wrongly referred to as "genlock". See the Reference definition and Genlock & Timing info page for more details. TBD.
@@ -104,7 +104,7 @@ Should be accompanied by a legend called a "Pinout" to indicate the function of 
 A [router](#Router) that routes multiple levels of signals, such as Audio, Video, Ancillary, Time Code, etc.
 
 ## Ingest
-TBD
+Ingest, also known as capture or input, refers to the process of bringing video or audio content into a broadcast or film/video editing workflow. This typically involves the use of specialized hardware or software to transfer the media from its source, such as a camera or microphone, into the editing or broadcast system. Depending on the system, this process can include a variety of tasks such as digitizing the content, converting it to a specific format, and applying initial processing or quality control. Ingest is often the first step in the post-production process and sets the foundation for the further editing and broadcasting of the content.
 
 ## Jackfield
 See: [Patchbay](#patchbay). A panel, often in a rack, where multiple physical signal paths are terminated. A jack may also be called a port or spigot, meaning a place where a plug is inserted. 
@@ -189,7 +189,8 @@ Serial Digital Interface. Refers to a transport defined by SMPTE 259M, SMPTE 292
 See: [Graphics Definitions](/en/definitions/graphics#slate)
 
 ## Switcher
-*needs more details*
+A switcher is a hardware device (or occasionally software) used in a broadcast workflow to switch between multiple video sources. It allows the operator to select which video signal is being output to the final destination, such as a live broadcast or recorded production. Switchers can be used in a variety of settings, such as live events, television shows, and news broadcasts, to switch between different cameras, pre-recorded segments, graphics, or other video sources. They can be operated manually or automatically, and can include features such as preview, transition effects, and keying.
+
 See also [VMU](#VMU), [Vision Mixer](#Vision_Mixer), [TD (Technical Director)](#TD_(Technical_Director))
 
 ## Tally
