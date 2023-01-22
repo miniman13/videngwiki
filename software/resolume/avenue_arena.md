@@ -2,7 +2,7 @@
 title: Resolume Avenue/Arena
 description: 
 published: true
-date: 2023-01-22T22:10:14.241Z
+date: 2023-01-22T22:11:38.885Z
 tags: resolume, arena, avenue
 editor: markdown
 dateCreated: 2022-10-14T05:39:32.892Z
@@ -16,7 +16,7 @@ Resloume allows users to map video content to various surfaces and shapes, such 
 
 Resolume Arena also allows users to play out video content in a variety of ways. They can choose to play video clips in sequence, play them randomly, or play them based on certain triggers or events. Users can also adjust the speed, looping, and direction of video playback, as well as apply various audio and video effects to the content.
 
-In addition, Resolume Arena has a number of features that allow users to control and manipulate the playback of their video content in real-time. This includes the ability to use midi controllers, OSC (Open Sound Control) devices, and other hardware to control the playback of video clips and effects. Users can also use the software's built-in timeline editor to create more complex and synchronized video playback sequences.
+In addition, Resolume Arena has a number of [features](#different-editions-avenue-vs-arena) that allow users to control and manipulate the playback of their video content in real-time. This includes the ability to use midi controllers, OSC (Open Sound Control) devices, and other hardware to control the playback of video clips and effects. Users can also use the software's built-in timeline editor to create more complex and synchronized video playback sequences.
 
 ## Different Editions (Avenue vs Arena)
 
