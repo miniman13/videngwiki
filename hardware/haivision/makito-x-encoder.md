@@ -2,7 +2,7 @@
 title: Makito X Encoder
 description: 
 published: true
-date: 2022-11-30T07:02:40.190Z
+date: 2023-01-22T22:04:30.478Z
 tags: encoder, rtmp, srt
 editor: markdown
 dateCreated: 2022-10-12T17:22:22.236Z
@@ -21,7 +21,7 @@ The Makito X is an ultra compact SDI or DVI H.264 encoding appliance with option
 ### Makito X (Harsh)
 
 ## Device Limitations
-The Haivision Makito X doesn't support RTMPS (RTMP over TLS/SSL), meaning you cannot stream (directly) to platforms like Facebook or Cloudflare who require RTMPS. (Haivision Support has stated on their portal there are no plans to add RTMPS support on the Makito X Encoder).
+The Haivision Makito X doesn't support RTMPS (RTMP over TLS/SSL), meaning you cannot stream (directly) to platforms like Facebook or Cloudflare who require RTMPS. (A Haivision Support representative stated on their support portal that there are no plans to add RTMPS support on the Makito X Encoder).
 
 
 # Documentation
