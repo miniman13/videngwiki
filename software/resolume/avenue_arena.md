@@ -2,7 +2,7 @@
 title: Resolume Avenue/Arena
 description: 
 published: true
-date: 2023-01-02T07:30:48.013Z
+date: 2023-01-22T22:10:14.241Z
 tags: resolume, arena, avenue
 editor: markdown
 dateCreated: 2022-10-14T05:39:32.892Z
@@ -18,3 +18,17 @@ Resolume Arena also allows users to play out video content in a variety of ways.
 
 In addition, Resolume Arena has a number of features that allow users to control and manipulate the playback of their video content in real-time. This includes the ability to use midi controllers, OSC (Open Sound Control) devices, and other hardware to control the playback of video clips and effects. Users can also use the software's built-in timeline editor to create more complex and synchronized video playback sequences.
 
+## Different Editions (Avenue vs Arena)
+
+Resolume Arena has the following features that Resolume Avenue doesn't:
+- Projection Mapping
+- Edge Blending
+- SMPTE Timecode input
+- Denon StageLinq
+- DMX Control
+- DMX Fixture Output
+- Capture Card Output
+- Groups
+- Slice Transforms
+
+For a complete (and up to date) list of differeneces, see [Differences between Avenue and Arena](https://resolume.com/support/en/avenue-arena-difference).
