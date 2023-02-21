@@ -2,7 +2,7 @@
 title: Definitions
 description: Some words can be confusing
 published: true
-date: 2023-01-22T21:48:22.627Z
+date: 2023-02-21T09:42:40.553Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T06:01:50.852Z
@@ -64,6 +64,9 @@ Manufacturer of computer graphics generators. Name is often used as a generic re
 
 ## Converter
 Anything that processes and changes at least one of the following about a signal (but no limited to): formats, framerates, standards, color spaces, dynamic ranges, and resolutions. Typically hardware.
+
+## Crosspoint
+Technically, a point in a router/matrix where an input is routed to an output. Often a router is referred to as a crosspoint, even though it is made up of a matrix of crosspoints.
 
 ## DA
 A Distribution Amplifier accepts a single input signal and provides the same signal to multple isolated outputs.
