@@ -2,7 +2,7 @@
 title: Definitions
 description: Some words can be confusing
 published: true
-date: 2023-02-21T09:42:40.553Z
+date: 2023-03-04T12:44:46.463Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T06:01:50.852Z
@@ -102,6 +102,9 @@ The state of equipment being locked to a frame. *Reference signal* (the signal t
 ## GPI/GPO/GPIO
 General Purpose Input, General Purpose Output, or General Purpose Input/Output. Often refers to bare wire connections or ports on a device allowing for serial communication or contact closure. Devices may have only GPI or GPO, but GPIO as a generic term may be used to refer to either/both. 
 Should be accompanied by a legend called a "Pinout" to indicate the function of each pin. Pinouts may be found in manufacturer documentation, but may also be printed directly on the device. 
+
+## Hot Punch
+To switch a show on the program bus of the switcher. Button presses mean the camera/source is immediately cut onto program.
 
 ## Hybrid Router
 A [router](#Router) that routes multiple levels of signals, such as Audio, Video, Ancillary, Time Code, etc.
