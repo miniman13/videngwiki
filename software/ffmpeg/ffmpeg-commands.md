@@ -2,7 +2,7 @@
 title: Useful FFMPEG Commands
 description: Because we will never remember all the options
 published: true
-date: 2022-11-11T04:32:44.460Z
+date: 2023-03-14T04:50:05.318Z
 tags: foss, open source, ffmpeg, software
 editor: markdown
 dateCreated: 2022-10-15T18:39:11.751Z
@@ -54,7 +54,7 @@ https://discord.com/channels/494428283094564864/494428766525718528/9392789744109
 `ffmpeg -i "file.mp4" -t 00:00:40 -filter_complex "[0]trim=start_frame=0:end_frame=1[c];[c][0]blend=all_mode=difference,blackframe=amount=98:threshold=32" -f null - 2>&1 | grep blackframe > output.txt`
 
 ### Use "difference" blend mode to find all subsequent occurances of frame
-This can be useful to find everywhere a video loops if given a single frame of a looping video
+This can be useful to find every instance of where a video loops if given a single still frame by matching future occurances of that single frame (which are written to output.txt)
 `ffmpeg -i "input.mp4" -t 00:00:40 -filter_complex "[0]trim=start_frame=0:end_frame=1[c];[c][0]blend=all_mode=difference,blackframe=amount=98:threshold=32" -f null - 2>&1 | grep blackframe > output.txt`
 
 
