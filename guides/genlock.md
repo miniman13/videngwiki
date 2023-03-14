@@ -2,13 +2,13 @@
 title: Genlock
 description: 
 published: true
-date: 2022-12-31T06:44:43.726Z
+date: 2023-03-14T04:47:15.247Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-16T06:19:27.051Z
 ---
 
-The following is a synopsis from [this Reddit](https://old.reddit.com/r/VIDEOENGINEERING/comments/zmbei5/genlock_basics/j0adqy8/) post by [Eviltechie](https://old.reddit.com/r/VIDEOENGINEERING/comments/zmbei5/genlock_basics/j0adqy8/).
+The following is a synopsis from [a Reddit](https://old.reddit.com/r/VIDEOENGINEERING/comments/zmbei5/genlock_basics/j0adqy8/) post by [Eviltechie](https://old.reddit.com/r/VIDEOENGINEERING/comments/zmbei5/genlock_basics/j0adqy8/).
 
 Genlock is a sync signal for video that lets all devices march in lock step. (e.g. they will all be creating video frames at the same moment in time).
 
