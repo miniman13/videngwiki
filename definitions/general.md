@@ -2,7 +2,7 @@
 title: Definitions
 description: Some words can be confusing
 published: true
-date: 2023-04-17T22:57:59.497Z
+date: 2023-04-17T23:27:13.979Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T06:01:50.852Z
@@ -134,7 +134,7 @@ Mix/Effect. Refers to the scope of processing within a video switcher focused on
 An M/E comprises of a program bus, preview/preset bus, select bus, transition block, and typically, keyers. An AUX output is not typically considered an ME since it is frequently limited to hard cuts and does not "mix" video sources. 
 
 ## Melt
-TBD
+A sequence of back-to-back clips played back over the air from the replay machine to a remote receiver such as the network, an affiliate station, host venue, etc. Often used in sports broadcasting to transmit highlights and player packages. 
 
 ## MIP
 Multi-Image Processor. Uncommon term for a multiviewer, may be manufacturer-specific. See [Multiviewer.](#multiviewer)
@@ -172,15 +172,19 @@ May refer broadly to the primary content intended to be viewed by the audience, 
 Originally a model of Telecast SDI over fiber optic conversion system, has become slang for any SDI over fiber conversion system.
 
 ## RCP
-*needs more details*
+Acronym for "Remote Control Panel" known by some manufacturers as an [ROP](#ROP), or "Remote Operation Panel." 
 
 ## Red Hat
-Term used in football to mean the Time Out Coordinator [(TOC)](#TOC)
+Term used in college football to mean the Time Out Coordinator [(TOC)](#TOC). In the NFL, this position (TV Liason) wears a Green Hat.
+
 ## RFQ
 **R**equest **F**or **Q**uote: a document that details pricing options for services or product(s). In Production, an RFQ is often used during the procurement process.
 
 ## ROI
 Region of Interest. Refers to a selected part of a raster. Typically as a term for checking pixel values in a given "region" or scaling to a "region of interest" in the case of an ROI converter.
+
+## ROP
+Acronym for "Remote Operation Panel" known by some manufacturers as an [RCP](#RCP), or "Remote Control Panel."
 
 ## Router
 A (typically) hardware device with either hardware or software control which takes multiple inputs/sources and routes them to multiple outputs/destinations. May route multiple levels (signal types). The act of routing a source to a destination is called "taking" a route. Some routers may take multiple routes at once by means of a macro or [Salvo](#Salvo).
@@ -254,7 +258,7 @@ A small, usually handheld size, device that can process a signal of some sort. M
 Time Out Coordinator. Communicates between the producer and referees. See [Red Hat](#Red_Hat)
 
 ## Track
-TBD
+Instruction to the A1 (audio) to bring up the level on a source. For example, "Track Red" means to unmute or raise the fader on the replay machine called "Red," and "Tracking talent" means to bring up the audio for the on-air announcers. See also "Sound full."
 
 ## Transmission
 Transmission can refer to the act of actually transmitting a signal over the air, or in an OB truck, the signal that leaves the truck to be distributed. 
@@ -276,7 +280,6 @@ Up, Down, Cross converter. A converter that can scale the raster up, down, and a
 
 ## VDA
 Video [Distribution Amplifier](#DA)
-
 
 ## VMU
 Vision Mixer Unit, common parlance for users not in the United States. See [Switcher](#Switcher), [Vision Mixer](#Vision_Mixer)
