@@ -1,8 +1,8 @@
 ---
 title: Binary, Decimal, and Hexadecimal
 description: This page explains the above concepts
-published: false
-date: 2023-04-19T00:58:02.385Z
+published: true
+date: 2023-04-19T00:58:27.856Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-19T00:58:02.385Z
