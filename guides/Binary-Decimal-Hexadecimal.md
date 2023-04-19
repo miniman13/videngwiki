@@ -2,7 +2,7 @@
 title: Binary, Decimal, and Hexadecimal
 description: This page explains the above concepts
 published: true
-date: 2023-04-19T00:58:27.856Z
+date: 2023-04-19T01:00:29.097Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-19T00:58:02.385Z
@@ -89,7 +89,7 @@ Hexadecimal (often abbreviated as Hex) is effectively only used as a human-reada
 Negative numbers are represented in binary in either two different ways: a sign bit, or 2's complement.
 
 ## Sign Bit
-A sign bit is when a specific bit of the value is assigned to represent the sign, often with a 0 representing positive and 1 representing negative. This was one of the first ways to represent negative numbers in binary, and has flaws as it makes computation such as addition and subtraction harder to do in hardware, and implements two different 0 values, a positive and negative (+0 / -0).
+A sign bit is when a specific bit of the value is assigned to represent the sign, often with a 0 representing positive and 1 representing negative. Typically the sign bit is the most significant bit (MSB). This was one of the first ways to represent negative numbers in binary, and has flaws as it makes computation such as addition and subtraction harder to do in hardware, and implements two different 0 values, a positive and negative (+0 / -0).
 
 ### Examples
 | Decimal Value | Binary Value           |
