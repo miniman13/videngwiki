@@ -2,7 +2,7 @@
 title: Studio Converter
 description: Blackmagic's Camera Control Units
 published: true
-date: 2022-11-29T09:22:54.886Z
+date: 2024-02-22T07:24:00.820Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-28T11:17:15.564Z
@@ -23,6 +23,10 @@ The Blackmagic Studio Fiber Converter ($2,995 starting price) is a 12G SMPTE hyb
 
 > The DB25 tally requires embeded ancillary data on the Return 1 SDI (via an ATEM) in order to override. A possible workaround is to loop the output from a BMD camera (which has ancillary data) into Return 1 or use the BMD Arduino Shield.
 {.is-warning}
+
+> According to BMD, the SMPTE hybrid fiber line uses 10G "IP video" networking. It is probably TICO and is definitely compressed to shove 12Gb/s of data down a 10G link. [Source](https://youtu.be/6-pcQ4PpzPs?si=j4mSkX6EuXCHTfN9&t=3209)
+{.is-info}
+
 
 ![](/hardware/blackmagic/studioconverter/2018blackmagicstudiofiberconverterdiagram.png)
 
