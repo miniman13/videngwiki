@@ -2,7 +2,7 @@
 title: Guides
 description: How do I do that?
 published: true
-date: 2022-11-21T08:49:45.405Z
+date: 2024-08-16T06:50:03.391Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T05:58:59.671Z
@@ -13,6 +13,9 @@ We often come across things that are confusing or hard to set up, these are some
 
 ## Dell EMC
 [Isilon Command Reference](/guides/isiloncommands)
+
+## Genlock
+[What is genlock?](/guides/genlock)
 
 ## Industry Best Practices
 [Industry Best Practices](/en/guides/best-practices)
