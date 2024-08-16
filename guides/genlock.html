@@ -2,7 +2,7 @@
 title: Genlock
 description: 
 published: true
-date: 2024-08-16T07:19:06.502Z
+date: 2024-08-16T11:55:27.745Z
 tags: 
 editor: ckeditor
 dateCreated: 2022-12-16T06:19:27.051Z
@@ -13,39 +13,42 @@ dateCreated: 2022-12-16T06:19:27.051Z
 <blockquote>
   <p>This reference guide will use the proper terminology, rather than colloquial.</p>
 </blockquote>
-<figure class="image image-style-align-right image_resized" style="width:49.89%;"><img src="/syncgen/evertz5601.png">
+<figure class="image image_resized image-style-align-right" style="width:49.89%;"><img src="/syncgen/evertz5601.png">
   <figcaption>Evertz 5601</figcaption>
 </figure>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>To generate your chosen signal(s), you need a sync pulse generator.&nbsp;</p>
+<p>All devices need a reference signal of some sort. If you don't supply it externally, devices will usually “free-run” on an internal reference. Some may also derive sync from an incoming video signal (using the video signal as a reference). If the device has a “reference in” port, it can run receive an external reference signal.&nbsp;</p>
+<p>To generate your chosen external reference signal(s), you need a sync pulse generator.&nbsp;</p>
 <figure class="image image_resized image-style-align-left" style="width:26.43%;"><img src="/syncgen/gen10.png">
   <figcaption>AJA GEN10</figcaption>
 </figure>
-<p>This could be something basic like an AJA GEN10, or a full blown master clock like an Evertz 5601</p>
+<p>This could be something basic like an AJA GEN10, or a full blown master clock like an Evertz 5601.</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>There are two types of reference signals:</p>
+<p>There are two types of external reference signals:</p>
 <ul>
   <li>Blackburst</li>
   <li>Trilevel</li>
 </ul>
-<p>&nbsp;</p>
-<p>Genlock is considered an analog signal, so you need an analog distribution amplifier to distribute it.</p>
-<p>All devices need a reference signal of some sort. If you don't supply it externally, they will usually free-run on an internal reference. Some may also derive sync from an incoming video signal.</p>
-<p>To genlock a wild signal, you can use a frame synchronizer. A frame sync will buffer a few frames and add or drop them as necessary to bring the source in time.</p>
-<p>Ideally, all inputs to a device and the device itself should be genlocked to the same reference source. In lieu of this, the device may have frame syncs built into its input stage. Lower level/prosumer gear often has this on all inputs. As you move up to mid-tier and higher level gear, this feature usually goes away as genlock is expected.</p>
-<p>Your strategy in a small setup will often be to genlock what you can, and rely on internal framesyncs for the rest.</p>
-<p>Things to watch out for:</p>
-<p>Frame syncs inherently add delay. If every device has to frame sync its inputs, this can add up which is usually undesirable, especially in IMAG situations. If you can genlock everything, you can avoid this.</p>
-<p>On some lower tier gear, you cannot disable the framesyncs, even if you can genlock the output of the device.</p>
-<p>Even if you genlock everything, you may still have to adjust the sync offset on individual devices. This is most notable on graphics sources, as you may notice a small gap at the top or bottom of the image. To do this properly you need a real scope that can measure timing offsets.</p>
+<h1>Distributing External Reference</h1>
+<p>External reference signals are analog signals so you need an analog distribution amplifier to distribute it, not an SDI DA.&nbsp;</p>
+<h1>Sync Offsets</h1>
+<p>Even if you genlock everything to external reference, you may still have to adjust the sync offset on individual devices. This is most notable on graphics sources, as you may notice a small gap at the top or bottom of the image. To do this properly you need a real scope that can measure timing offsets.</p>
 <p>Some devices lack this timing offset. You may have to steer an extra output of your sync pulse generator to handle this.</p>
+<h1>Terminating</h1>
 <p>Genlock needs to be terminated. Each output that is in use should be terminated exactly once. Some devices will do this for you, some will have a switch, some will do it automatically when the loop through is not connected, and some will not do it at all and you will have to provide your own external terminator. You will usually need to read the manual to figure this out.</p>
-<h3>More Reading:</h3>
+<h1>Deriving Sync In Other Ways</h1>
+<p>In lieu of an external reference signals, the device may have frame synchronizers built into its input stage. Lower level/prosumer gear often has this on all inputs. As you move up to mid-tier and higher level gear, this feature usually goes away as external reference is expected.</p>
+<p>To genlock a wild signal without a proper external reference signal, the device uses a frame synchronizer. A frame sync will buffer a few frames and add or drop them as necessary to bring the source in time. This may be fine in a small setup where you genlock to an external reference signal what you can, and rely on internal framesyncs for the rest.</p>
+<h2>However, there are things to watch out for:</h2>
+<p>Frame syncs inherently add delay.&nbsp;</p>
+<ul>
+  <li>If every device has to frame sync its inputs, this can add up which is usually undesirable, especially in IMAG situations. If you can genlock to an external reference signal , you can avoid this.</li>
+  <li>On some lower tier gear, you cannot disable the framesyncs, even if you can genlock the output of the device.</li>
+</ul>
+<p>&nbsp;</p>
+<h4>More Reading:</h4>
 <p><a href="https://www.analog.com/en/analog-dialogue/articles/phase-locked-loop-pll-fundamentals.htmlx">https://www.analog.com/en/analog-dialogue/articles/phase-locked-loop-pll-fundamentals.htmlx</a></p>
 <p><a href="https://resi.io/blog/what-is-genlock/">https://resi.io/blog/what-is-genlock/</a></p>
-<p>The following is a synopsis from <a href="https://old.reddit.com/r/VIDEOENGINEERING/comments/zmbei5/genlock_basics/j0adqy8/">a Reddit post</a> by <a href="https://old.reddit.com/r/VIDEOENGINEERING/comments/zmbei5/genlock_basics/j0adqy8/">Eviltechie</a> and with slight modifications by <a href="https://discord.com/channels/494428283094564864/494428283568390147/1078067173345472635">IanTech</a>.</p>
+<h3>Comments</h3>
+<p>The following is a synopsis from <a href="https://old.reddit.com/r/VIDEOENGINEERING/comments/zmbei5/genlock_basics/j0adqy8/">a Reddit post</a> by <a href="https://old.reddit.com/r/VIDEOENGINEERING/comments/zmbei5/genlock_basics/j0adqy8/">Eviltechie</a> and with slight modifications by <a href="https://discord.com/channels/494428283094564864/494428283568390147/1078067173345472635">IanTech</a> based on this <a href="https://discord.com/channels/494428283094564864/564260039406125086/968950187290656798">post</a>.</p>
