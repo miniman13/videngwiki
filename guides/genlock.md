@@ -2,19 +2,36 @@
 title: Genlock
 description: 
 published: true
-date: 2023-03-14T04:47:25.390Z
+date: 2024-08-16T07:15:04.420Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-16T06:19:27.051Z
 ---
 
-The following is a synopsis from [a Reddit post](https://old.reddit.com/r/VIDEOENGINEERING/comments/zmbei5/genlock_basics/j0adqy8/) by [Eviltechie](https://old.reddit.com/r/VIDEOENGINEERING/comments/zmbei5/genlock_basics/j0adqy8/).
+**Genlock** (generator lock) about syncing broadcast devices  so that they will create video frames at the same moment in time.
 
-Genlock is a sync signal for video that lets all devices march in lock step. (e.g. they will all be creating video frames at the same moment in time).
+Technically speaking, genlock refers to the state of devices being “genlocked” to a sync signal. This sync signal is properly called a **reference** signal, but often colloquially, genlock is also used to refer to the reference signal itself as in “give that device genlock”.
 
-There are two main types, blackburst and tri-level.
+To generate your chosen signal(s), you need a sync pulse generator. This
 
-To generate your chosen signal(s), you need a sync pulse generator. This could be something basic like an AJA GEN10, or a full blown master clock like an Evertz 5601.
+![](/syncgen/gen10.png)
+
+AJA GEN10
+
+ could be something basic like an AJA GEN10, 
+
+![](/syncgen/evertz5601.png)
+
+Evertz 5601
+
+or a full blown master clock like an Evertz 5601.
+
+> This reference guide will use the proper terminology, rather than colloquial.
+
+There are two types of reference signals:
+
+-   Blackburst
+-   Trilevel
 
 Genlock is considered an analog signal, so you need an analog distribution amplifier to distribute it.
 
@@ -43,3 +60,5 @@ Genlock needs to be terminated. Each output that is in use should be terminated 
 [https://www.analog.com/en/analog-dialogue/articles/phase-locked-loop-pll-fundamentals.htmlx](https://www.analog.com/en/analog-dialogue/articles/phase-locked-loop-pll-fundamentals.htmlx)
 
 [https://resi.io/blog/what-is-genlock/](https://resi.io/blog/what-is-genlock/)
+
+The following is a synopsis from [a Reddit post](https://old.reddit.com/r/VIDEOENGINEERING/comments/zmbei5/genlock_basics/j0adqy8/) by [Eviltechie](https://old.reddit.com/r/VIDEOENGINEERING/comments/zmbei5/genlock_basics/j0adqy8/) and with slight modifications by [IanTech](https://discord.com/channels/494428283094564864/494428283568390147/1078067173345472635).
