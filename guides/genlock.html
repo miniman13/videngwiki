@@ -2,7 +2,7 @@
 title: Genlock
 description: 
 published: true
-date: 2024-10-18T08:07:19.154Z
+date: 2024-10-18T08:54:15.204Z
 tags: 
 editor: ckeditor
 dateCreated: 2022-12-16T06:19:27.051Z
@@ -27,7 +27,7 @@ dateCreated: 2022-12-16T06:19:27.051Z
 <p>&nbsp;</p>
 <p>There are two types of external reference signals:</p>
 <ul>
-  <li>Blackburst</li>
+  <li>Blackburst (bi-level, black and burst)</li>
   <li>Trilevel</li>
 </ul>
 <h1>Distributing External Reference</h1>
@@ -43,7 +43,7 @@ dateCreated: 2022-12-16T06:19:27.051Z
 <h2>However, there are things to watch out for:</h2>
 <p>Frame syncs inherently add delay.&nbsp;</p>
 <ul>
-  <li>If every device has to frame sync its inputs, this can add up which is usually undesirable, especially in IMAG situations. If you can genlock to an external reference signal , you can avoid this.</li>
+  <li>If every device has to frame sync its inputs, delay can add up, which is usually undesirable, especially in IMAG situations. If you can genlock to an external reference signal , you can mitigate this.</li>
   <li>On some lower tier gear, you cannot disable the framesyncs, even if you can genlock the output of the device.</li>
 </ul>
 <p>&nbsp;</p>
