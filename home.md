@@ -2,13 +2,11 @@
 title: Home
 description: 
 published: true
-date: 2024-10-18T08:46:24.234Z
+date: 2024-10-18T08:46:39.828Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T05:46:44.419Z
 ---
-
-# The Video Engineering Wiki
 
 ![banner.png](/banner.png)
 
