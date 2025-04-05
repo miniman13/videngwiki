@@ -2,7 +2,7 @@
 title: Hyperdeck
 description: 
 published: true
-date: 2025-04-05T05:12:34.698Z
+date: 2025-04-05T05:17:39.904Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-15T09:04:25.343Z
@@ -49,7 +49,7 @@ dateCreated: 2022-10-15T09:04:25.343Z
 <td>Hyperdeck Shuttle 4K Pro<br><br><img src="/hardware/blackmagic/2025hyperdeckshuttle4kpro.png" alt=""></td>
 <td>1&nbsp;x&nbsp;SD card slot<br><br>Slot for optional M.2 PCIe NVMe card for cache<br><br>1 x USB‑C 3.1 Gen 1 expansion port for external recording of SD, HD, 2K&nbsp;DCI, Ultra&nbsp;HD and 4K DCI.</td>
 <td>1 x 12G BNC<br><br>1 x HDMI 2.0</td>
-<td>1 x HDMI 2.0 Monitor<br><br>1 x HDMI 2.0<br><br>1 x 12G BNC Loop</td>
+<td>1 x HDMI 2.0 Monitor<br><br>1 x HDMI 2.0<br><br>1 x 12G BNC Loop<br><br>1 x 12G Out A (Fill)<br><br>1 x 12G Out B (Key)</td>
 <td>1 x 6.35 mm headphone jack</td>
 <td><details><summary>Expand</summary>5525i59.94&nbsp;NTSC, 625i50&nbsp;PAL,  <br>720p50, 720p59.94, 720p60,  <br>1080i50, 1080i59.94, 1080i60,  <br>1080p23.98, 1080p24, 1080p25, 1080p29.97, 1080p30, 1080p50, 1080p59.94, 1080p60,  <br>2Kp23.98&nbsp;DCI, 2Kp24&nbsp;DCI, 2Kp25&nbsp;DCI, 2Kp29.97&nbsp;DCI, 2Kp30&nbsp;DCI,  <br>2160p23.98, 2160p24, 2160p25, 2160p29.97, 2160p30, 2160p50, 2160p59.94, 2160p60,  <br>4Kp23.98&nbsp;DCI, 4Kp24&nbsp;DCI, 4Kp25&nbsp;DCI, 4Kp29.97&nbsp;DCI, 4Kp30&nbsp;DCI</details></td>
 <td><details><summary>Expand</summary>ProRes HQ QuickTime, ProRes 422 QuickTime, ProRes LT QuickTime, ProRes Proxy QuickTime for all formats up to 2160p60.
