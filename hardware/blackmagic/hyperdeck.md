@@ -2,7 +2,7 @@
 title: Hyperdeck
 description: 
 published: true
-date: 2025-04-05T04:11:19.552Z
+date: 2025-04-05T04:13:12.616Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-15T09:04:25.343Z
@@ -13,7 +13,8 @@ The HyperDeck is a series of recording decks from Blackmagic Design.
 Expand to see product diagrams.
 
 # Schematics
-
+<details>
+  
 ![2022 Extreme 4K HDR](/hardware/blackmagic/2022hyperdeckextreme4khdrdiagram.png)
 
 ![2022 Studio Shuttle HD](/hardware/blackmagic/2022hyperdeckstudioshuttlehddiagram.png)
@@ -42,6 +43,9 @@ Expand to see product diagrams.
 
 ![Shuttle/Shuttle 2](/hardware/blackmagic/2011hyperdeckshuttle.png)
 
+</details>
+  
+  
 | **Model Name** | **Media** | **Video Input** | **Video Output** | **Audio Connectors** | **Record Formats** | Codecs | Reference In / Timecode | **Release Year** | Introductory Price | Last Known Price/Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Hyperdeck Shuttle 4K Pro<br><br>![](/hardware/blackmagic/2025hyperdeckshuttle4kpro.png) | 1 x SD card slot<br><br>Slot for optional M.2 PCIe NVMe card for cache<br><br>1 x USB‑C 3.1 Gen 1 expansion port for external recording of SD, HD, 2K DCI, Ultra HD and 4K DCI. | 1 x 12G BNC<br><br>1 x HDMI 2.0 | 1 x HDMI 2.0 Monitor<br><br>1 x HDMI 2.0<br><br>1 x 12G BNC Loop |     | 525i59.94 NTSC, 625i50 PAL,  <br>720p50, 720p59.94, 720p60,  <br>1080i50, 1080i59.94, 1080i60,  <br>1080p23.98, 1080p24, 1080p25, 1080p29.97, 1080p30, 1080p50, 1080p59.94, 1080p60,  <br>2Kp23.98 DCI, 2Kp24 DCI, 2Kp25 DCI, 2Kp29.97 DCI, 2Kp30 DCI,  <br>2160p23.98, 2160p24, 2160p25, 2160p29.97, 2160p30, 2160p50, 2160p59.94, 2160p60,  <br>4Kp23.98 DCI, 4Kp24 DCI, 4Kp25 DCI, 4Kp29.97 DCI, 4Kp30 DCI |     |     | 2025 |     |     |
