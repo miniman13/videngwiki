@@ -2,13 +2,15 @@
 title: Hyperdeck
 description: 
 published: true
-date: 2025-04-05T04:06:31.624Z
+date: 2025-04-05T04:11:19.552Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-15T09:04:25.343Z
 ---
 
-The HyperDeck is a series of recording decks from Blackmagic Design. Expand to see product diagrams.
+The HyperDeck is a series of recording decks from Blackmagic Design.
+
+Expand to see product diagrams.
 
 # Schematics
 
