@@ -2,15 +2,12 @@
 title: ATEM
 description: 
 published: true
-date: 2025-06-15T22:09:23.878Z
+date: 2025-06-15T22:09:37.351Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-15T22:09:00.433Z
 ---
 
-# ATEM
-
-## Feature Matrix
 
 The following features are unique to ATEM models (apart from headline features like # of M/Es,, 8K…)
 
