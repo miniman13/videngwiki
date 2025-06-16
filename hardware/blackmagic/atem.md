@@ -2,7 +2,7 @@
 title: ATEM
 description: 
 published: true
-date: 2025-06-16T12:10:40.057Z
+date: 2025-06-16T12:12:21.337Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-15T22:09:00.433Z
@@ -16,8 +16,8 @@ The following lesser documented (if at all) features which are unique to specifi
 | 4 M/E    <br>Constellation    <br>4K Plus |     |     |     |     |     |     |     |     | ✅   | ✅   |     |     |     |     | ✅   |     | ✅   |
 | 4 M/E    <br>Constellation    <br>4K | ✅   | ✅   | ✅ (9.6.2+) |     | ✅   | ✅   | ✅   | ✅   | ✅   | ✅  <br>(upcoming 10.0) | ✅   |     | ✅   | ✅   |     |     |     |
 | Constellation    <br>8K | ✅ (9.6.2+) | ✅   | ✅<br><br>(except in 8K mode) |     |     |     |     |     |     |     | ✅   | ✅   | ✅   |     |     |     |     |
-| 4 M/E Broadcast    <br>Studio 4K |     |     | ✅   | ✅   |     |     |     |     |     |     | ✅   | ✅   |     |     |     |     |     |
-| 1 M/E & 2 M/E Production Studio 4K |     |     | ✅ (2M/E) | ✅   |     |     |     |     |     |     |     |     |     |     |     |     |     |
-| Television Studio Pro 4K |     |     |     |     |     |     |     |     |     |     |     | ✅   |     |     |     |     |     |
+| 4 M/E Broadcast    <br>Studio 4K |     |     | ✅   | ✅   |     |     |     |     |     |     | ✅   | ✅   |     |     |     |     |   ✅   |
+| 1 M/E & 2 M/E Production Studio 4K |     |     | ✅ (2M/E) | ✅   |     |     |     |     |     |     |     |     |     |     |     |     |   ✅   |
+| Television Studio Pro 4K |     |     |     |     |     |     |     |     |     |     |     | ✅   |     |     |     |     |  |
 | Television Studio Pro/Pro HD | [✅ (HDMI only)](https://web.archive.org/web/20190125204313/https://www.blackmagicdesign.com/products/atemtelevisionstudio/techspecs) |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
 | ATEM Mini Pro/Pro ISO/Extreme/Extreme ISO | ✅   |     |     |     |     |     |     |     |     |     |     |     |     |     | ✅   | ✅   |     |
