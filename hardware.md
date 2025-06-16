@@ -2,7 +2,7 @@
 title: Hardware
 description: All the equipment out there.
 published: true
-date: 2023-02-19T23:18:46.191Z
+date: 2025-06-16T11:26:33.704Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T05:56:34.170Z
@@ -18,6 +18,7 @@ We all know there's a lot of hardware out there and it's confusing to keep track
 [HyperDeck Recorders](/en/hardware/blackmagic/hyperdeck)
 [Studio Converter CCUs](/en/hardware/blackmagic/studioconverter)
 [VideoHub Routers](/en/hardware/blackmagic/videohub)
+[ATEM Switchers](/en/hardware/blackmagic/atem)
 
 ## Haivision
 
