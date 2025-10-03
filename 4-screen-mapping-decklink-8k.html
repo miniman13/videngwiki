@@ -2,23 +2,21 @@
 title: 4 Output Mapping on Decklink 8K Pro
 description: This is how you get 4 outputs "screens" (1 key + 1 fill + 2 stage displays utilizing Pro 7+ and the 8K Pro
 published: true
-date: 2025-09-01T12:57:17.978Z
+date: 2025-10-03T13:27:18.053Z
 tags: 
 editor: ckeditor
 dateCreated: 2025-09-01T12:57:17.978Z
 -->
 
-<h1>4 Output Mapping on Pro 7 + Decklink 8K Pro</h1>
+<h1>4 Output Mapping on ProPresenter 2025 + Decklink 8K Pro</h1>
 <p>&nbsp;</p>
 <h3>Intro</h3>
 <p>Despite what Renewed Vision tells you, it is seemingly possible to output 4 simultaneous outputs to the Decklink 8K Pro. This is a tested method running the latest firmware (as of Sept 1, 2025), the latest version of ProPresenter, and the following configuration. The Decklink card is on an Apple Silicon Mac Mini, connected via a Sonnet Echo Express SE1 over Thunderbolt 3. It results in:</p>
 <ol>
-  <li>1 Fill Output</li>
-  <li>1 Key Output</li>
-  <li>2 Stage Display Outputs</li>
+  <li>1 Audience Screen (1 Fill Output + 1 Key Output)</li>
+  <li>2 Stage Screen (formerly called Stage Display) Outputs</li>
 </ol>
-<p>&nbsp;</p>
-<p>For the purposes of ease of use, the label my connectors A1-A4 for "Computer A". Remember the connections arranged on the spigots of the 8K Pro as: Ref, 1, 3, 2, 4.</p>
+<p>For the purposes of ease of use, the label my connectors A1-A4 for "Computer A". Remember the connections arranged on the spigots of the 8K Pro as: PCIE side Ref, 1, 3, 2, 4.</p>
 <p>&nbsp;</p>
 <h4>Decklink Configuration</h4>
 <ol>
@@ -26,16 +24,34 @@ dateCreated: 2025-09-01T12:57:17.978Z
       <li>Set to: "SDI 1 In or Out"</li>
     </ol>
   </li>
-  <li>Output A2 - A2 Fill<ol>
-      <li>Set to “SDI 2 In or Out”</li>
+  <li>Output A3 - A3 StgScn 1<ol>
+      <li>Set to: “SDI 3 In or Out”</li>
     </ol>
   </li>
-  <li>Output A3 - A3 StgScn 1</li>
+  <li>Output A2 - A2 Fill<ol>
+      <li>Set to: “SDI 2 In or Out”</li>
+    </ol>
+  </li>
+  <li>Output A4 - A4 StgScn 2<ol>
+      <li>Set to: “SDI 4 In or Out”</li>
+    </ol>
+  </li>
 </ol>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
 <h4>ProPresenter Configuration</h4>
-<p>ProPresenter appears to always output KEY of the Key/Fill pair first.</p>
+<p>ProPresenter appears to prefer the KEY of the Key/Fill pair first.</p>
+<ol>
+  <li>Create a new “Audience Screen”</li>
+  <li>On the Hardware tab, select Output “Output A2 - A2 Fill”</li>
+  <li>On the Alpha Key tab set to Alpa Type to “Premultiplied”</li>
+  <li>Set the Output to “Output A1 (Ref Side) - A1 Key”</li>
+  <li>Create 2 new “Stage Screen”s</li>
+  <li>On the “Hardware” tab of each, set Output to “A3 StgScn 1”, and “A3 StgScn 2”, respectively</li>
+</ol>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
+<figure class="image image_resized" style="width:37.99%;"><img src="/guides/decklink_propres_2.png"></figure>
+<figure class="image image_resized" style="width:37.99%;"><img src="/guides/decklink_propres_1.png"></figure>
+<figure class="image image_resized" style="width:38.25%;"><img src="/guides/decklink_propres_3.png">
+  <figcaption>Do for Stage Screen 1 and for Stage Screen 2 (not pictured)</figcaption>
+</figure>
 <p>&nbsp;</p>
