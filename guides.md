@@ -2,7 +2,7 @@
 title: Guides
 description: How do I do that?
 published: true
-date: 2024-08-16T06:50:55.399Z
+date: 2025-10-03T13:16:55.870Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-12T05:58:59.671Z
@@ -28,3 +28,6 @@ We often come across things that are confusing or hard to set up, these are some
 
 ## Truck Packs
 [Truck Packs](/en/guides/Truck-Packs)
+
+## ProPresenter
+[4 Output Mapping on Pro 7 + Decklink 8K Pro](/en/4-screen-mapping-decklink-8k)
